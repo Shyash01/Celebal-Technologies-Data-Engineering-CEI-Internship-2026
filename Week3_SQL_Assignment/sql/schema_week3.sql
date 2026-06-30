@@ -1,0 +1,37 @@
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Row ID" TYPE BIGINT
+USING "Row ID"::BIGINT;
+
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Order Date" TYPE DATE
+USING TO_DATE("Order Date", 'MM/DD/YYYY');
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Ship Date" TYPE DATE
+USING TO_DATE("Ship Date", 'MM/DD/YYYY');
+
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Postal Code" TYPE BIGINT
+USING "Postal Code"::BIGINT;
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Sales" TYPE NUMERIC(10,2)
+USING "Sales"::NUMERIC;
+
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Quantity" TYPE INTEGER
+USING "Quantity"::INTEGER;
+
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Discount" TYPE NUMERIC(4,2)
+USING "Discount"::NUMERIC;
+
+
+ALTER TABLE superstore_raw
+ALTER COLUMN "Profit" TYPE NUMERIC(10,2)
+USING "Profit"::NUMERIC;

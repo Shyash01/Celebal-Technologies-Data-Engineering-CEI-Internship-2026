@@ -1,0 +1,15 @@
+This project demonstrated the use of Python Pandas for performing data exploration and cleaning operations on an e-commerce shopping dataset.
+
+## Tasks Completed
+- Loaded CSV dataset into a Pandas DataFrame
+- Explored dataset structure and statistical information
+- Identified and handled missing values
+- Verified duplicate records
+- Cleaned and transformed pricing data
+- Performed filtering and column selection operations
+- Created a derived discount analysis column
+- Generated visualizations for ratings and pricing trends
+- Exported the cleaned dataset successfully
+
+## Conclusion
+The dataset is now cleaner, more structured, and more suitable for further analytical or preprocessing tasks.

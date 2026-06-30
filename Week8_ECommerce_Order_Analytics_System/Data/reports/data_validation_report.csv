@@ -1,0 +1,5 @@
+Missing Customer IDs,Duplicate Customer IDs,Missing Emails,Unique Customer IDs,Missing Product IDs,Duplicate Product IDs,Missing Product Names,Unique Product IDs,Missing Order IDs,Duplicate Order IDs,Unique Order IDs,Missing Item IDs,Duplicate Item IDs,Negative Quantities,Unique Item IDs
+0.0,0.0,20.0,True,,,,,,,,,,,
+,,,,0.0,0.0,0.0,True,,,,,,,
+0.0,,,,,,,,0.0,0.0,True,,,,
+,,,,,,,,,,,0.0,0.0,0.0,True

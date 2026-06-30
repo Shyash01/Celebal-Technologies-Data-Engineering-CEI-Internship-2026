@@ -1,0 +1,15 @@
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# VS Code Settings
+.vscode/
+
+# Database Files
+*.db
