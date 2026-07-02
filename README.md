@@ -14,6 +14,7 @@ Throughout this internship, I worked on SQL, Azure Data Factory, Apache Spark, P
 - Week 6 – Spark Architecture Assignment
 - Week 7 – Delta Lake Assignment
 - Week 8 – E-Commerce Order Analytics System
+- Secure Retail Data Lakehouse - Final Internship Project
 
 The final internship project will also be added to this repository after its completion.
 
