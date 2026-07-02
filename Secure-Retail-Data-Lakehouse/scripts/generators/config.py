@@ -116,3 +116,13 @@ DB_PORT = os.getenv("DB_PORT", "5433")
 DB_NAME = os.getenv("DB_NAME", "secure_retail_lakehouse")
 DB_USER = os.getenv("DB_USER", "postgres")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
+
+# Tokenization Configuration
+# Used as a salt for SHA-256 hashing of PII identifiers in the Silver layer.
+# Must be set in .env — never hardcode this value.
+HASH_SALT = os.getenv("HASH_SALT")
+
+if not HASH_SALT:
+    raise ValueError(
+        "HASH_SALT is not set. Add HASH_SALT=<your-secret-salt> to your .env file."
+    )

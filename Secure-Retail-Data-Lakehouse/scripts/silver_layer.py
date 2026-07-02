@@ -1,8 +1,9 @@
+import hashlib
 import os
 
 import pandas as pd
 
-from generators.config import BRONZE_DATA_PATH
+from generators.config import BRONZE_DATA_PATH, HASH_SALT
 
 
 SILVER_DATA_PATH = "data/silver"
@@ -53,8 +54,29 @@ def mask_card(card):
     return "*" * (len(card) - 4) + card[-4:]
 
 
+def tokenize(value):
+    """
+    Generates a secure, deterministic surrogate token using salted SHA-256.
+    Same input always produces the same token, so it remains usable as a
+    join key for analytics, but is computationally infeasible to reverse
+    back to the original value without the salt.
+    """
+
+    if pd.isna(value) or value == "":
+        return value
+
+    salted_value = (HASH_SALT + str(value)).encode("utf-8")
+
+    return hashlib.sha256(salted_value).hexdigest()
+
+
 def transform_customers(customers):
 
+    # Tokenize identifiers first, from the original (pre-masked) values
+    customers["email_token"] = customers["email"].apply(tokenize)
+    customers["phone_token"] = customers["phone"].apply(tokenize)
+
+    # Apply masking for human-readable views
     customers["full_name"] = customers["full_name"].apply(mask_name)
 
     customers["email"] = customers["email"].apply(mask_email)
@@ -123,6 +145,10 @@ def main():
     print("Customers Written    :", len(customers))
 
     print("Transactions Written :", len(transactions))
+
+    print("\nTokenization Applied")
+    print("  • email_token (SHA-256, salted)")
+    print("  • phone_token (SHA-256, salted)")
 
     print("\nSilver Layer Completed Successfully.")
 
