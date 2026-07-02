@@ -1,164 +1,136 @@
-# 🔐 Secure Retail Data Lakehouse
+# Secure Retail Data Lakehouse
 
-> **A Python-based Secure Retail Data Engineering Pipeline implementing layered ETL architecture (Raw → Bronze → Silver → Gold) with PII protection, PostgreSQL integration, automated validation, and reporting.**
-
----
-
-##  Project Overview
-
-Secure Retail Data Lakehouse is a Data Engineering project developed as part of the **Celebal Technologies Data Engineering Internship**.
-
-The project demonstrates how raw retail transaction data containing Personally Identifiable Information (PII) can be securely processed through a layered ETL pipeline before being made available for analytical workloads.
-
-The implementation follows the concepts described in the internship problem statement by applying:
-
-- Hard Drop of highly sensitive information
-- Data Masking
-- Data Privacy
-- Data Transformation
-- Data Aggregation
-- Layered Data Lakehouse Architecture
-- Automated Reporting
-- PostgreSQL Integration
+> A Python-based Data Engineering project that implements a secure layered ETL pipeline (Raw → Bronze → Silver → Gold) with data privacy techniques, cryptographic tokenization, PostgreSQL integration, automated validation, and reporting.
 
 ---
 
-##  Problem Statement
+# Project Overview
 
-Retail organizations continuously collect sensitive customer information such as:
+Secure Retail Data Lakehouse is my final project for the **Celebal Technologies Data Engineering Internship 2026**.
 
-- Customer Names
-- Email Addresses
-- Phone Numbers
-- Home Addresses
-- Payment Card Information
+The objective of this project is to simulate how a retail organization can securely process customer and transaction data before making it available for analytics.
 
-Directly exposing this information to downstream analytical systems creates serious security and compliance risks.
+The pipeline generates realistic synthetic retail data, validates it, applies multiple privacy-preserving transformations, organizes it using a Medallion Architecture (Raw, Bronze, Silver, and Gold), loads the final analytical datasets into PostgreSQL, and generates execution and data quality reports.
 
-This project implements a secure batch ETL pipeline that sanitizes customer data before it reaches analytical storage.
+The project focuses on implementing practical Data Engineering concepts while keeping the design modular, readable, and suitable for an internship-level implementation.
 
 ---
 
-## Project Objectives
+# Problem Statement
 
-The primary objectives of this project are:
+Retail organizations collect large amounts of customer information every day, including names, email addresses, phone numbers, payment details, and transaction history.
 
-- Build a layered ETL Data Lakehouse
+Using this data directly for analytics creates privacy and security concerns because Personally Identifiable Information (PII) should not be exposed to analysts or downstream systems.
+
+The goal of this project is to build a secure ETL pipeline that protects sensitive customer information while still producing datasets that are useful for business reporting and analysis.
+
+---
+
+# Project Objectives
+
+The project was developed with the following objectives:
+
+- Build a layered ETL pipeline following the Medallion Architecture
 - Generate realistic synthetic retail datasets
-- Validate generated datasets
-- Protect Personally Identifiable Information (PII)
-- Implement Hard Drop strategy
-- Apply masking techniques
-- Create analytics-ready Gold datasets
-- Store processed datasets inside PostgreSQL
-- Generate automated project reports
-- Demonstrate Data Engineering best practices
+- Validate generated datasets before processing
+- Protect sensitive customer information using multiple privacy techniques
+- Implement cryptographic tokenization for selected identifiers
+- Create analytics-ready datasets
+- Load processed data into PostgreSQL
+- Generate automated reports for validation and pipeline execution
+- Demonstrate good Data Engineering practices through a modular project structure
 
 ---
 
-##  Key Features
+# Key Features
 
 - Synthetic Retail Data Generation
 - Automated Data Validation
-- Bronze Layer (Hard Drop)
-- Silver Layer (PII Masking)
-- Gold Layer (Feature Engineering & Aggregation)
+- Raw, Bronze, Silver, and Gold Data Layers
+- Hard Drop of highly sensitive information
+- Data Masking
+- Data Redaction
+- SHA-256 Tokenization
+- Feature Engineering
+- Customer and Sales Aggregation
 - PostgreSQL Integration
-- Automated Pipeline Reports
-- Modular Python Architecture
-- Config Driven Design
-- Internship-Oriented Project Structure
+- Automated HTML and Text Reports
+- Modular Python Codebase
+- Environment Variable Based Configuration
 
 ---
 
-##  Project Architecture
+# Project Architecture
 
 ```text
-                    Raw Layer
-          customers.csv | transactions.csv
-                     │
-                     ▼
-              Data Validation
-                     │
-                     ▼
-              Bronze Layer
-          (Hard Drop Sensitive Data)
-                     │
-                     ▼
-              Silver Layer
-           (PII Masking & Privacy)
-                     │
-                     ▼
-               Gold Layer
-      (Binning & Aggregation)
-                     │
-                     ▼
-              PostgreSQL Database
-                     │
-                     ▼
-           Automated Project Reports
+                 Product Master Generation
+                            │
+                            ▼
+                 Customer Data Generation
+                            │
+                            ▼
+               Transaction Data Generation
+                            │
+                            ▼
+                   Data Validation
+                            │
+                            ▼
+                      Raw Layer
+                            │
+                            ▼
+                    Bronze Layer
+          (Hard Drop + Metadata Addition)
+                            │
+                            ▼
+                    Silver Layer
+     (Masking + Redaction + Tokenization)
+                            │
+                            ▼
+                     Gold Layer
+(Feature Engineering + Generalization + Aggregation)
+                            │
+                            ▼
+                  PostgreSQL Database
+                            │
+                            ▼
+                 Automated Report Generation
 ```
 
 ---
 
-##  Technology Stack
+# Technology Stack
 
 | Category | Technologies |
 |-----------|--------------|
-| Language | Python 3 |
+| Programming Language | Python 3 |
 | Data Processing | Pandas |
 | Database | PostgreSQL |
 | ORM | SQLAlchemy |
-| Fake Data Generation | Faker |
-| Reporting | HTML + Text Reports |
-| Version Control | Git & GitHub |
-| IDE | Visual Studio Code |
+| Synthetic Data | Faker |
+| Security | hashlib (SHA-256), python-dotenv |
+| Reporting | HTML Reports, Text Reports |
+| Version Control | Git, GitHub |
+| Development Environment | Visual Studio Code |
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```text
 Secure-Retail-Data-Lakehouse/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── customers.csv
-│   │   └── transactions.csv
-│   │
 │   ├── bronze/
-│   │   ├── customers_bronze.csv
-│   │   └── transactions_bronze.csv
-│   │
 │   ├── silver/
-│   │   ├── customers_silver.csv
-│   │   └── transactions_silver.csv
-│   │
 │   └── gold/
-│       ├── customers_gold.csv
-│       ├── transactions_gold.csv
-│       ├── customer_summary.csv
-│       └── sales_summary.csv
 │
 ├── master_data/
-│   └── product_master.csv
 │
 ├── reports/
-│   ├── validation_report.txt
-│   ├── data_quality_report.txt
-│   ├── pipeline_metrics_report.txt
-│   └── pipeline_summary.html
 │
 ├── scripts/
 │   ├── generators/
-│   │   ├── config.py
-│   │   ├── data_loader.py
-│   │   ├── generate_customers.py
-│   │   ├── generate_product_master.py
-│   │   ├── generate_transactions.py
-│   │   ├── transaction_allocator.py
-│   │   └── validate_generated_data.py
-│   │
 │   ├── bronze_layer.py
 │   ├── silver_layer.py
 │   ├── gold_layer.py
@@ -168,66 +140,61 @@ Secure-Retail-Data-Lakehouse/
 ├── README.md
 ├── requirements.txt
 ├── run_pipeline.py
+├── Software_Requirements_Specification.pdf
+├── Final_Project_Report.pdf
 └── .gitignore
 ```
 
 ---
 
-#  Data Pipeline Workflow
+# Pipeline Workflow
 
-The project follows a layered ETL (Extract → Transform → Load) architecture inspired by modern Data Lakehouse principles.
+The complete pipeline follows a sequential ETL process.
 
 ```text
-Synthetic Data Generation
-            │
-            ▼
-     Data Validation
-            │
-            ▼
-         Raw Layer
-            │
-            ▼
-      Bronze Layer
-     (Hard Drop)
-            │
-            ▼
-      Silver Layer
-   (Mask & Protect PII)
-            │
-            ▼
-       Gold Layer
-(Binning & Aggregation)
-            │
-            ▼
-     PostgreSQL Storage
-            │
-            ▼
-   Automated Report Generation
+Generate Product Master
+        │
+        ▼
+Generate Customers
+        │
+        ▼
+Generate Transactions
+        │
+        ▼
+Validate Generated Data
+        │
+        ▼
+Raw Layer
+        │
+        ▼
+Bronze Layer
+        │
+        ▼
+Silver Layer
+        │
+        ▼
+Gold Layer
+        │
+        ▼
+Load into PostgreSQL
+        │
+        ▼
+Generate Reports
+```
+
+The entire workflow can be executed automatically using:
+
+```bash
+python run_pipeline.py
 ```
 
 ---
 
-#  Data Sources
+# ETL Pipeline
 
-The project generates realistic synthetic retail datasets using the **Faker** library and custom business logic.
+## Raw Layer
 
-### Generated Datasets
-
-| Dataset | Description |
-|----------|-------------|
-| customers.csv | Customer master data containing PII and demographic information |
-| transactions.csv | Retail transaction records |
-| product_master.csv | Product catalog containing categories and pricing |
-
----
-
-# 🔄 ETL Pipeline Overview
-
-The pipeline processes retail data through four logical stages.
-
-## 1️⃣ Raw Layer
-
-The Raw Layer stores generated retail datasets exactly as they are produced.
+The Raw Layer stores the generated datasets exactly as they are created.
 
 ### Files
 
@@ -236,21 +203,22 @@ The Raw Layer stores generated retail datasets exactly as they are produced.
 
 ### Purpose
 
-- Preserve original data
+- Preserve the original generated data
 - Act as the source of truth
-- Maintain complete customer information before transformations
+- Serve as the input for downstream processing
 
 ---
 
-## 2️⃣ Bronze Layer
+## Bronze Layer
 
-The Bronze Layer performs the first security transformation.
+The Bronze Layer performs the first stage of data processing.
 
-### Transformation Performed
+### Transformations
 
-- Hard Drop of highly sensitive payment information (CVV)
-- Addition of ingestion metadata
-- Preservation of original business data
+- Removes CVV using the Hard Drop technique
+- Adds ingestion timestamp
+- Adds pipeline run identifier
+- Preserves the remaining business data without modification
 
 ### Output
 
@@ -259,17 +227,28 @@ The Bronze Layer performs the first security transformation.
 
 ---
 
-## 3️⃣ Silver Layer
+## Silver Layer
 
 The Silver Layer focuses on protecting Personally Identifiable Information (PII).
 
-### Transformations Performed
+### Transformations
 
 - Customer Name Masking
 - Email Address Masking
 - Phone Number Masking
 - Address Redaction
-- Payment Card Number Masking
+- Card Number Masking
+
+### Tokenization
+
+Along with masking, the Silver Layer creates secure surrogate tokens for selected customer identifiers using **salted SHA-256 hashing**.
+
+Generated columns include:
+
+- email_token
+- phone_token
+
+These tokens are deterministic, meaning the same input always generates the same output. This allows secure joins and analytics while making it computationally infeasible to recover the original values without the secret salt stored in the `.env` file.
 
 ### Output
 
@@ -278,17 +257,25 @@ The Silver Layer focuses on protecting Personally Identifiable Information (PII)
 
 ---
 
-## 4️⃣ Gold Layer
+## Gold Layer
 
-The Gold Layer prepares analytics-ready datasets.
+The Gold Layer prepares datasets for reporting and business analysis.
 
-### Transformations Performed
+### Transformations
 
 - Customer Age Calculation
 - Age Group Generation
 - Transaction Amount Bucketing
-- Customer Aggregation
-- Sales Aggregation
+- Customer Summary
+- Sales Summary
+
+### Privacy Improvements
+
+After calculating customer age and age groups, the exact `date_of_birth` column is removed from the final dataset.
+
+Customer postal codes are also generalized by keeping only the first three digits (for example, `560103` becomes `560XXX`).
+
+These transformations reduce the possibility of re-identifying an individual while preserving the usefulness of the data for analytics.
 
 ### Output
 
@@ -299,58 +286,62 @@ The Gold Layer prepares analytics-ready datasets.
 
 ---
 
-#  Data Privacy Strategy
+# Data Privacy Strategy
 
-The project implements multiple data privacy techniques.
+The project applies multiple privacy-preserving techniques at different stages of the pipeline.
 
-| Technique | Purpose | Implemented |
-|-----------|----------|-------------|
-| Hard Drop | Remove highly sensitive information | ✅ |
-| Data Masking | Hide customer identity | ✅ |
-| Data Redaction | Remove sensitive addresses | ✅ |
-| Aggregation | Analytics without exposing individuals | ✅ |
+| Technique | Purpose | Status |
+|-----------|---------|--------|
+| Hard Drop | Remove highly sensitive information (CVV) | Implemented |
+| Data Masking | Hide customer identity | Implemented |
+| Data Redaction | Remove complete address information | Implemented |
+| SHA-256 Tokenization | Create irreversible surrogate identifiers | Implemented |
+| Generalization | Remove exact DOB and generalize postal codes | Implemented |
+| Aggregation | Generate business insights without exposing individual records | Implemented |
 
-These transformations ensure that downstream analytical users never access sensitive customer information directly.
+These transformations ensure that the datasets used for analytics do not expose sensitive customer information while still supporting meaningful business analysis.
 
-# 🗄 PostgreSQL Integration
+---
 
-The final analytics-ready datasets generated by the Gold Layer are automatically loaded into PostgreSQL using **SQLAlchemy**.
+# PostgreSQL Integration
 
-## Database
+The final Gold Layer datasets are automatically loaded into PostgreSQL using SQLAlchemy.
 
-```text
+### Database
+
+```
 secure_retail_lakehouse
 ```
 
-## Tables
+### Tables
 
 | Table | Description |
 |--------|-------------|
-| customers_gold | Analytics-ready customer dataset |
-| transactions_gold | Analytics-ready transaction dataset |
-| customer_summary | Customer aggregation by loyalty tier |
-| sales_summary | Sales aggregation by product category |
+| customers_gold | Processed customer dataset |
+| transactions_gold | Processed transaction dataset |
+| customer_summary | Customer summary by loyalty tier |
+| sales_summary | Sales summary by product category |
 
-This integration demonstrates how processed data can be loaded into a relational database for querying and business analytics.
+This demonstrates how processed analytical datasets can be stored inside a relational database for reporting and querying.
 
 ---
 
-#  Automated Reports
+# Automated Reports
 
-The project automatically generates reports after successful pipeline execution.
+The pipeline automatically generates reports after successful execution.
 
-| Report | Description |
-|---------|-------------|
-| validation_report.txt | Validation results for generated datasets |
-| data_quality_report.txt | Missing values, duplicates, and data quality checks |
-| pipeline_metrics_report.txt | Pipeline execution metrics and record counts |
+| Report | Purpose |
+|---------|---------|
+| validation_report.txt | Dataset validation results |
+| data_quality_report.txt | Missing values, duplicates, and quality checks |
+| pipeline_metrics_report.txt | Pipeline execution statistics |
 | pipeline_summary.html | HTML summary of the complete pipeline |
 
-These reports provide visibility into pipeline execution and help verify data quality before downstream consumption.
+These reports help verify pipeline execution and provide a quick overview of data quality.
 
 ---
 
-#  Installation
+# Installation
 
 ## Clone the Repository
 
@@ -361,7 +352,7 @@ cd Secure-Retail-Data-Lakehouse
 
 ---
 
-## Create Virtual Environment
+## Create a Virtual Environment
 
 ### Windows
 
@@ -387,77 +378,96 @@ pip install -r requirements.txt
 
 ---
 
-## Configure PostgreSQL
+# Configure Environment Variables
 
-Update the database credentials inside:
+Create a `.env` file in the project root.
 
 ```text
-scripts/generators/config.py
+DB_HOST=localhost
+DB_PORT=5433
+DB_NAME=secure_retail_lakehouse
+DB_USER=postgres
+DB_PASSWORD=your_password_here
+HASH_SALT=your_random_secret_salt_here
 ```
 
-```python
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "secure_retail_lakehouse"
-DB_USER = "postgres"
-DB_PASSWORD = "your_password"
+The project uses environment variables to manage database credentials and the cryptographic hashing salt. The `.env` file is excluded from version control through `.gitignore` and should never be committed to GitHub.
+
+# Running the Project
+
+The complete pipeline can be executed either step-by-step or through a single automation script.
+
+## Option 1: Run the Complete Pipeline
+
+```bash
+python run_pipeline.py
 ```
+
+This executes the following stages in sequence:
+
+1. Generate Product Master
+2. Generate Customers
+3. Generate Transactions
+4. Validate Generated Data
+5. Execute Bronze Layer
+6. Execute Silver Layer
+7. Execute Gold Layer
+8. Load Data into PostgreSQL
+9. Generate Reports
 
 ---
 
-#  Running the Project
+## Option 2: Run Each Stage Individually
 
-Run each stage of the pipeline in the following order:
-
-### 1. Generate Product Master
+### Generate Product Master
 
 ```bash
 python scripts/generators/generate_product_master.py
 ```
 
-### 2. Generate Customers
+### Generate Customers
 
 ```bash
 python scripts/generators/generate_customers.py
 ```
 
-### 3. Generate Transactions
+### Generate Transactions
 
 ```bash
 python scripts/generators/generate_transactions.py
 ```
 
-### 4. Validate Generated Data
+### Validate Generated Data
 
 ```bash
 python scripts/generators/validate_generated_data.py
 ```
 
-### 5. Execute Bronze Layer
+### Execute Bronze Layer
 
 ```bash
 python scripts/bronze_layer.py
 ```
 
-### 6. Execute Silver Layer
+### Execute Silver Layer
 
 ```bash
 python scripts/silver_layer.py
 ```
 
-### 7. Execute Gold Layer
+### Execute Gold Layer
 
 ```bash
 python scripts/gold_layer.py
 ```
 
-### 8. Load Data into PostgreSQL
+### Load Data into PostgreSQL
 
 ```bash
 python scripts/database_loader.py
 ```
 
-### 9. Generate Reports
+### Generate Reports
 
 ```bash
 python scripts/generate_reports.py
@@ -465,39 +475,59 @@ python scripts/generate_reports.py
 
 ---
 
-# 📈 Pipeline Outputs
+# Pipeline Outputs
 
-## Data Layer Outputs
+After successful execution, the following outputs are generated.
 
-```text
-Raw Layer
-│
-├── customers.csv
-└── transactions.csv
+## Raw Layer
 
-Bronze Layer
-│
-├── customers_bronze.csv
-└── transactions_bronze.csv
+```
+customers.csv
 
-Silver Layer
-│
-├── customers_silver.csv
-└── transactions_silver.csv
-
-Gold Layer
-│
-├── customers_gold.csv
-├── transactions_gold.csv
-├── customer_summary.csv
-└── sales_summary.csv
+transactions.csv
 ```
 
 ---
 
-## Database Outputs
+## Bronze Layer
 
-```text
+```
+customers_bronze.csv
+
+transactions_bronze.csv
+```
+
+---
+
+## Silver Layer
+
+```
+customers_silver.csv
+
+transactions_silver.csv
+```
+
+---
+
+## Gold Layer
+
+```
+customers_gold.csv
+
+transactions_gold.csv
+
+customer_summary.csv
+
+sales_summary.csv
+```
+
+---
+
+# PostgreSQL Outputs
+
+The following tables are automatically created inside the PostgreSQL database.
+
+```
 customers_gold
 
 transactions_gold
@@ -507,60 +537,76 @@ customer_summary
 sales_summary
 ```
 
----
-
-## Report Outputs
-
-```text
-validation_report.txt
-
-data_quality_report.txt
-
-pipeline_metrics_report.txt
-
-pipeline_summary.html
-```
+These tables can be queried directly for reporting and analytics.
 
 ---
 
-#  Learning Outcomes
+# Generated Reports
 
-This project demonstrates practical implementation of:
+The project generates several reports automatically after pipeline execution.
 
-- Layered ETL Pipeline Design
-- Data Lakehouse Architecture
-- Data Privacy Techniques
-- Personally Identifiable Information (PII) Protection
-- Data Validation
-- Data Quality Assessment
-- Feature Engineering
-- Data Aggregation
-- PostgreSQL Integration
-- SQLAlchemy
-- Automated Reporting
-- Modular Python Project Structure
-- Configuration Driven Development
+| Report | Description |
+|---------|-------------|
+| validation_report.txt | Summary of dataset validation |
+| data_quality_report.txt | Missing values, duplicates, and quality assessment |
+| pipeline_metrics_report.txt | Pipeline execution statistics |
+| pipeline_summary.html | HTML summary of the complete pipeline |
+
+These reports help verify successful execution and provide quick insight into the generated datasets.
 
 ---
 
-#  Future Enhancements
+# Security Notes
 
-Potential improvements include:
+This project follows a privacy-first approach while remaining suitable for an internship-level implementation.
 
-- Apache Spark implementation
-- Azure Data Lake integration
-- Azure Data Factory orchestration
-- Apache Airflow scheduling
+Some important security practices followed are:
+
+- Database credentials are managed using environment variables (`.env`) instead of being hardcoded.
+- The cryptographic hashing salt used for tokenization is also stored in `.env`.
+- Personally Identifiable Information (PII) is protected using masking, redaction, tokenization, hard drop, and generalization techniques.
+- Sensitive files such as `.env` are excluded from version control through `.gitignore`.
+- Project dependencies are managed using `requirements.txt`, while the virtual environment (`venv`) is excluded from GitHub.
+
+---
+
+# Learning Outcomes
+
+Working on this project helped me gain practical experience in:
+
+- Designing layered ETL pipelines
+- Implementing the Medallion Architecture
+- Generating realistic synthetic datasets
+- Data validation and quality assessment
+- Applying privacy-preserving techniques
+- Hard Drop, Masking, Redaction, and Generalization
+- Cryptographic tokenization using SHA-256
+- Feature engineering for analytics
+- Building reusable and modular Python scripts
+- Loading analytical datasets into PostgreSQL
+- Using SQLAlchemy for database operations
+- Managing application configuration using environment variables
+- Automating report generation
+- Organizing a Data Engineering project using a clean folder structure
+
+---
+
+# Future Scope
+
+This project can be extended further by implementing features such as:
+
 - Incremental data loading
-- Docker containerization
-- CI/CD pipeline integration
-- Cloud deployment
-- Monitoring and alerting
-- Interactive analytics dashboard
+- Additional business KPIs and dashboards
+- More advanced data quality validation rules
+- Support for multiple input data sources
+- Data versioning for historical analysis
+- Interactive visualization using Power BI or Tableau
+
+These enhancements can further improve the project while building upon the current architecture.
 
 ---
 
-#  Author
+# Author
 
 **Yash Sharma**
 
@@ -568,26 +614,26 @@ B.Tech Computer Science & Engineering (Data Science)
 
 Amity University Uttar Pradesh
 
-Celebal Technologies Data Engineering Internship Project
+Celebal Technologies Data Engineering Internship (2026)
 
 ---
 
 # Acknowledgements
 
-- Celebal Technologies
-- Internship Mentors
-- PostgreSQL
-- SQLAlchemy
-- Pandas
-- Faker
-- Python Community
+I would like to thank:
+
+- Celebal Technologies for providing the internship opportunity and project statement.
+- My internship mentors for their guidance throughout the program.
+- The open-source community behind Python, Pandas, SQLAlchemy, Faker, and PostgreSQL for providing the tools used in this project.
 
 ---
 
-#  License
+# License
 
 This project has been developed for educational and internship purposes.
 
+Feel free to explore, learn from, and adapt the implementation for academic use.
+
 ---
 
-##  If you found this project useful, consider giving it a star.
+If you found this project useful or interesting, consider giving the repository a ⭐.
