@@ -1,0 +1,751 @@
+customer_id,full_name,email,phone,address,city,state,postal_code,date_of_birth,gender,registration_date,loyalty_tier,ingestion_timestamp,pipeline_run_id
+CUST0001,G****** T*****,et********@example.net,XXXXXX5500,REDACTED,Kolkata,West Bengal,283840,1974-09-21,Male,2024-10-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0002,R*** M***,aa******@example.org,XXXXXX0410,REDACTED,Bengaluru,Karnataka,314063,1975-09-09,Other,2026-06-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0003,U***** S***,sa******@example.net,XXXXXX8496,REDACTED,Mumbai,Maharashtra,221937,2004-11-20,Female,2025-03-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0004,Y****** M***,ry****@example.com,XXXXXX8995,REDACTED,Bengaluru,Karnataka,201155,1973-02-01,Male,2026-01-12,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0005,Z**** C********,wa*****@example.net,XXXXXX6253,REDACTED,Delhi,Delhi,391349,1982-08-18,Male,2021-07-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0006,J**** M*****,ya****@example.com,XXXXXX1970,REDACTED,Jaipur,Rajasthan,335424,1957-05-30,Female,2023-04-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0007,H****** V********,sc*****@example.org,XXXXXX9663,REDACTED,Jaipur,Rajasthan,676257,1949-09-07,Other,2022-11-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0008,B****** K***,ch*************@example.org,XXXXXX3270,REDACTED,Chennai,Tamil Nadu,561410,2004-06-21,Male,2026-05-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0009,U*** S***,sa******@example.com,XXXXXX0393,REDACTED,Pune,Maharashtra,366820,1987-05-10,Female,2023-04-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0010,I***** C**********,cn*******@example.com,XXXXXX3595,REDACTED,Kolkata,West Bengal,230650,1951-03-19,Other,2025-04-25,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0011,E***** D****,bb***@example.org,XXXXXX5357,REDACTED,Jaipur,Rajasthan,980797,2000-06-23,Other,2025-12-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0012,W******** R**,sh**********@example.com,XXXXXX1563,REDACTED,Hyderabad,Telangana,434238,1959-07-16,Female,2025-06-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0013,L*** G******,ym***@example.org,XXXXXX5251,REDACTED,Delhi,Delhi,290738,1981-10-11,Female,2021-10-08,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0014,T**** N***,ta******@example.org,XXXXXX0489,REDACTED,Chennai,Tamil Nadu,340602,1958-05-07,Male,2024-06-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0015,N**** K***,ma********@example.org,XXXXXX9466,REDACTED,Jaipur,Rajasthan,170181,1993-07-01,Female,2022-09-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0016,A****** B*****,ch**********@example.net,XXXXXX0413,REDACTED,Jaipur,Rajasthan,878984,1953-12-26,Male,2021-09-15,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0017,U****** T*****,hb**@example.org,XXXXXX0436,REDACTED,Bengaluru,Karnataka,627216,1967-11-28,Female,2022-11-30,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0018,M****** J******,da********@example.org,XXXXXX7998,REDACTED,Hyderabad,Telangana,581584,1958-10-04,Other,2022-03-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0019,O**** W****,om********@example.net,XXXXXX5470,REDACTED,Kolkata,West Bengal,501378,1970-02-23,Male,2023-02-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0020,C******** M*****,os***@example.org,XXXXXX6598,REDACTED,Pune,Maharashtra,258413,1995-07-17,Male,2025-10-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0021,S***** G***,ba********************@example.net,XXXXXX3978,REDACTED,Delhi,Delhi,589846,1988-09-01,Male,2023-02-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0022,C****** K*****,bu********@example.org,XXXXXX2221,REDACTED,Chennai,Tamil Nadu,536034,1988-03-08,Other,2025-02-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0023,D**** H****,sa***********@example.net,XXXXXX1034,REDACTED,Jaipur,Rajasthan,182470,1993-04-13,Female,2023-11-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0024,E**** M***,ya*****@example.com,XXXXXX2135,REDACTED,Pune,Maharashtra,655893,1981-07-22,Male,2022-02-15,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0025,K***** P******,lb***@example.net,XXXXXX6027,REDACTED,Hyderabad,Telangana,136058,1977-02-09,Male,2024-04-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0026,A***** D*****,zg*****@example.org,XXXXXX6802,REDACTED,Delhi,Delhi,549992,1996-05-19,Other,2024-07-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0027,R****** G*****,ba*******************@example.org,XXXXXX5108,REDACTED,Bengaluru,Karnataka,889917,1950-11-11,Other,2024-06-11,Gold,2026-07-02 16:18:55,6c59e737
+CUST0028,M****** B****,he**********@example.com,XXXXXX4675,REDACTED,Ahmedabad,Gujarat,728023,1984-03-15,Male,2024-05-26,Gold,2026-07-02 16:18:55,6c59e737
+CUST0029,O*** R****,db****@example.com,XXXXXX8308,REDACTED,Ahmedabad,Gujarat,752966,1961-03-02,Other,2025-06-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0030,E***** M*****,tk****@example.net,XXXXXX1711,REDACTED,Kolkata,West Bengal,277945,1957-05-16,Male,2025-08-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0031,P***** N********,ch*************@example.com,XXXXXX1931,REDACTED,Pune,Maharashtra,181195,1955-02-06,Male,2024-12-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0032,A** T*****,na**********@example.net,XXXXXX9103,REDACTED,Delhi,Delhi,968301,2004-08-29,Other,2023-01-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0033,C***** N********,kh********@example.net,XXXXXX7492,REDACTED,Delhi,Delhi,250884,1953-11-19,Male,2021-12-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0034,H**** D***,nk***@example.org,XXXXXX1077,REDACTED,Pune,Maharashtra,532354,1954-04-11,Other,2022-07-13,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0035,W***** S***,sh**********@example.org,XXXXXX8475,REDACTED,Jaipur,Rajasthan,927789,1949-06-08,Female,2024-10-02,Gold,2026-07-02 16:18:55,6c59e737
+CUST0036,G***** K******,ni*****@example.com,XXXXXX5313,REDACTED,Hyderabad,Telangana,982010,1969-03-15,Other,2024-02-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0037,P****** H***,na**********@example.net,XXXXXX0764,REDACTED,Delhi,Delhi,503647,1996-10-31,Other,2021-12-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0038,B********* D***,be********@example.com,XXXXXX2113,REDACTED,Ahmedabad,Gujarat,954125,1989-07-17,Other,2025-01-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0039,W**** C*****,pa***********@example.net,XXXXXX2082,REDACTED,Ahmedabad,Gujarat,173592,1994-06-27,Male,2025-12-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0040,Q***** G****,bh************@example.net,XXXXXX1487,REDACTED,Delhi,Delhi,149895,1955-10-27,Other,2025-03-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0041,M***** G****,me*********@example.org,XXXXXX2252,REDACTED,Bengaluru,Karnataka,834217,1984-10-29,Female,2022-02-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0042,F**** K******,un*****@example.org,XXXXXX8225,REDACTED,Pune,Maharashtra,395273,2007-01-28,Male,2024-09-08,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0043,P***** D***,ch*******@example.com,XXXXXX3795,REDACTED,Bengaluru,Karnataka,553921,1950-11-02,Female,2025-08-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0044,S***** G******,ad****@example.org,XXXXXX8231,REDACTED,Chennai,Tamil Nadu,877453,1984-11-05,Other,2022-01-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0045,C******* P*****,up****@example.org,XXXXXX4443,REDACTED,Bengaluru,Karnataka,481734,1990-03-12,Female,2021-08-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0046,I**** S******,le********@example.org,XXXXXX6333,REDACTED,Jaipur,Rajasthan,741385,1957-12-24,Other,2025-04-23,Gold,2026-07-02 16:18:55,6c59e737
+CUST0047,P***** W******,ja*********@example.net,XXXXXX1029,REDACTED,Lucknow,Uttar Pradesh,192276,1996-06-09,Male,2021-10-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0048,O**** B****,os**********@example.org,XXXXXX2888,REDACTED,Hyderabad,Telangana,24798,1988-03-24,Female,2023-07-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0049,I****** G***,uc*********@example.org,XXXXXX8624,REDACTED,Chennai,Tamil Nadu,9477,1961-02-05,Female,2026-05-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0050,V**** R***,tr**********@example.org,XXXXXX6896,REDACTED,Jaipur,Rajasthan,458626,1991-06-04,Other,2021-07-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0051,Z***** M***,is***********@example.net,XXXXXX9092,REDACTED,Pune,Maharashtra,730030,1974-04-11,Male,2024-01-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0052,D******* N*******,sa***********@example.org,XXXXXX9026,REDACTED,Bengaluru,Karnataka,405364,1976-04-21,Other,2025-01-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0053,A*** K*****,yo***********@example.net,XXXXXX2023,REDACTED,Hyderabad,Telangana,724840,1975-09-13,Male,2022-02-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0054,H**** D**,ba********@example.org,XXXXXX6000,REDACTED,Kolkata,West Bengal,290921,1992-03-20,Female,2021-09-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0055,A*** S***,vw****@example.com,XXXXXX7339,REDACTED,Delhi,Delhi,458494,1957-01-11,Male,2025-06-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0056,G****** L*****,ek*****@example.org,XXXXXX3021,REDACTED,Chennai,Tamil Nadu,738549,1978-08-14,Other,2024-07-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0057,B******** B*****,sa***********@example.org,XXXXXX5077,REDACTED,Ahmedabad,Gujarat,448794,1963-12-17,Male,2023-09-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0058,N***** G***,si*********@example.net,XXXXXX8904,REDACTED,Ahmedabad,Gujarat,689467,1948-05-30,Female,2022-07-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0059,P**** S*****,sa************@example.com,XXXXXX4031,REDACTED,Ahmedabad,Gujarat,845989,1959-07-16,Male,2022-10-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0060,V******** B*****,ke******@example.com,XXXXXX8301,REDACTED,Kolkata,West Bengal,46050,1983-05-30,Other,2025-04-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0061,U******** H****,ik*****@example.com,XXXXXX1635,REDACTED,Lucknow,Uttar Pradesh,998003,1984-03-10,Male,2024-04-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0062,F**** M****,un******@example.net,XXXXXX4283,REDACTED,Mumbai,Maharashtra,683961,1953-10-06,Female,2023-11-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0063,M***** O*,va*********@example.com,XXXXXX9179,REDACTED,Bengaluru,Karnataka,351768,1949-06-06,Male,2022-01-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0064,T**** M******,po*****@example.org,XXXXXX3167,REDACTED,Mumbai,Maharashtra,755600,1969-05-20,Male,2023-08-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0065,U***** G***,ra*******@example.org,XXXXXX9926,REDACTED,Jaipur,Rajasthan,861891,1973-07-31,Male,2024-10-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0066,T***** K*****,ee**********@example.com,XXXXXX2514,REDACTED,Delhi,Delhi,656603,1964-01-30,Female,2025-06-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0067,K****** T*****,pm***********@example.org,XXXXXX1270,REDACTED,Ahmedabad,Gujarat,702901,1979-05-21,Female,2024-01-29,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0068,H**** Y****,lc***@example.net,XXXXXX6303,REDACTED,Ahmedabad,Gujarat,884666,1985-04-16,Female,2024-07-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0069,V***** S*******,lp****@example.net,XXXXXX0668,REDACTED,Hyderabad,Telangana,509505,1996-08-22,Female,2022-05-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0070,M****** C****,ar*****@example.com,XXXXXX8379,REDACTED,Lucknow,Uttar Pradesh,591741,1960-07-20,Female,2026-06-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0071,R****** J***,ab*******@example.com,XXXXXX6578,REDACTED,Jaipur,Rajasthan,424509,1987-06-26,Female,2022-12-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0072,U***** S***,nr****@example.net,XXXXXX9362,REDACTED,Kolkata,West Bengal,800334,1970-02-05,Female,2026-05-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0073,D****** R**,ch********@example.org,XXXXXX5748,REDACTED,Lucknow,Uttar Pradesh,483245,1957-11-03,Male,2023-04-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0074,A**** K****,ya*************@example.com,XXXXXX9409,REDACTED,Mumbai,Maharashtra,557513,1979-12-30,Female,2021-08-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0075,C***** S*****,wp********@example.net,XXXXXX5648,REDACTED,Pune,Maharashtra,284954,1955-12-28,Other,2022-08-20,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0076,W**** M*****,ja**************@example.net,XXXXXX7739,REDACTED,Hyderabad,Telangana,404503,1991-07-18,Other,2023-05-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0077,D***** H***,up*********@example.com,XXXXXX4970,REDACTED,Pune,Maharashtra,200739,1969-11-09,Female,2021-07-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0078,A*** B****,kr**@example.org,XXXXXX9222,REDACTED,Chennai,Tamil Nadu,94135,1986-11-11,Female,2023-02-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0079,J******* B***,da********@example.org,XXXXXX2795,REDACTED,Pune,Maharashtra,968790,1997-03-12,Other,2026-02-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0080,J**** L***,at********@example.org,XXXXXX9750,REDACTED,Lucknow,Uttar Pradesh,538215,1989-12-10,Male,2024-02-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0081,P**** B***,tm****@example.org,XXXXXX6667,REDACTED,Mumbai,Maharashtra,832421,1997-02-10,Female,2026-05-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0082,A***** S***,pa********@example.com,XXXXXX1714,REDACTED,Ahmedabad,Gujarat,499485,1945-11-15,Female,2025-07-02,Gold,2026-07-02 16:18:55,6c59e737
+CUST0083,R***** D****,vr******@example.org,XXXXXX8825,REDACTED,Delhi,Delhi,227163,2008-03-30,Male,2026-02-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0084,C******* S*****,fr*********@example.net,XXXXXX2728,REDACTED,Lucknow,Uttar Pradesh,523822,1966-03-05,Male,2023-12-06,Gold,2026-07-02 16:18:55,6c59e737
+CUST0085,Y****** K***,ch***********@example.net,XXXXXX7385,REDACTED,Pune,Maharashtra,242707,1951-01-22,Female,2022-01-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0086,Z*** S*******,yb*****@example.com,XXXXXX5694,REDACTED,Chennai,Tamil Nadu,119004,1985-04-01,Other,2026-01-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0087,G***** D*****,sa*******@example.com,XXXXXX0977,REDACTED,Bengaluru,Karnataka,576395,1986-10-02,Male,2024-03-31,Silver,2026-07-02 16:18:55,6c59e737
+CUST0088,J***** P*****,me**********@example.org,XXXXXX7007,REDACTED,Kolkata,West Bengal,650305,1971-05-14,Other,2022-07-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0089,B****** S**,ms***@example.com,XXXXXX3186,REDACTED,Hyderabad,Telangana,567452,1982-06-24,Female,2025-12-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0090,A****** M*****,at***@example.com,XXXXXX4766,REDACTED,Chennai,Tamil Nadu,244,1999-02-23,Other,2023-11-29,Gold,2026-07-02 16:18:55,6c59e737
+CUST0091,R****** K******,mp****@example.org,XXXXXX1554,REDACTED,Mumbai,Maharashtra,211464,1949-06-02,Female,2025-03-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0092,Y**** C******,ir****@example.net,XXXXXX0882,REDACTED,Pune,Maharashtra,550210,1976-10-09,Other,2022-11-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0093,Z***** D******,hi******@example.com,XXXXXX9329,REDACTED,Jaipur,Rajasthan,119074,1999-03-14,Female,2022-10-31,Gold,2026-07-02 16:18:55,6c59e737
+CUST0094,K** B****,ni*******@example.net,XXXXXX3647,REDACTED,Ahmedabad,Gujarat,860882,1951-06-29,Male,2025-08-31,Gold,2026-07-02 16:18:55,6c59e737
+CUST0095,H***** L**,ko************@example.net,XXXXXX3505,REDACTED,Delhi,Delhi,603554,1998-10-30,Female,2023-06-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0096,R****** V***********,me*********@example.com,XXXXXX2107,REDACTED,Mumbai,Maharashtra,331506,1970-11-28,Male,2023-04-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0097,B********* P**,hb**@example.net,XXXXXX1625,REDACTED,Mumbai,Maharashtra,890030,2004-09-29,Other,2023-09-20,Gold,2026-07-02 16:18:55,6c59e737
+CUST0098,E***** A*******,sa*******@example.com,XXXXXX2998,REDACTED,Mumbai,Maharashtra,652629,1991-03-21,Other,2024-04-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0099,A***** J**,ni**********@example.com,XXXXXX2763,REDACTED,Mumbai,Maharashtra,153359,1951-08-12,Male,2021-12-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0100,O**** M****,up********@example.net,XXXXXX2470,REDACTED,Mumbai,Maharashtra,497654,1953-11-28,Female,2023-02-17,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0101,M******* S***,dh***********@example.com,XXXXXX9425,REDACTED,Jaipur,Rajasthan,313635,1946-12-29,Male,2023-05-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0102,V****** B***,ja*********@example.org,XXXXXX4794,REDACTED,Bengaluru,Karnataka,918758,1985-05-08,Other,2024-03-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0103,J**** R*******,su**********@example.net,XXXXXX7072,REDACTED,Delhi,Delhi,987523,1946-07-25,Male,2023-02-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0104,M***** B****,lo*******@example.org,XXXXXX5671,REDACTED,Lucknow,Uttar Pradesh,682421,1966-09-24,Other,2023-07-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0105,J****** R****,cd***@example.com,XXXXXX6160,REDACTED,Jaipur,Rajasthan,382706,2006-09-06,Other,2021-07-20,Gold,2026-07-02 16:18:55,6c59e737
+CUST0106,A***** S***,bh*******@example.org,XXXXXX3330,REDACTED,Delhi,Delhi,920377,1966-08-27,Other,2022-10-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0107,A**** S*****,pa*********@example.org,XXXXXX0905,REDACTED,Delhi,Delhi,124805,1956-09-24,Male,2023-10-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0108,C****** G******,ba**********@example.net,XXXXXX8493,REDACTED,Ahmedabad,Gujarat,387276,1978-12-31,Other,2024-10-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0109,S***** C*******,qa*****@example.net,XXXXXX0995,REDACTED,Jaipur,Rajasthan,87049,1977-01-02,Other,2024-10-30,Gold,2026-07-02 16:18:55,6c59e737
+CUST0110,Y*** A****,ek******@example.net,XXXXXX2715,REDACTED,Lucknow,Uttar Pradesh,357610,1973-12-24,Female,2025-07-27,Gold,2026-07-02 16:18:55,6c59e737
+CUST0111,N****** V***,fi**************@example.net,XXXXXX3204,REDACTED,Pune,Maharashtra,316651,1990-03-07,Male,2021-11-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0112,G***** P***,la********@example.com,XXXXXX6565,REDACTED,Hyderabad,Telangana,962565,1957-04-11,Male,2023-03-16,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0113,D***** C******,ra***************@example.com,XXXXXX2268,REDACTED,Hyderabad,Telangana,251105,2002-12-12,Other,2025-05-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0114,A**** S****,pr**************@example.com,XXXXXX6883,REDACTED,Hyderabad,Telangana,363599,1947-03-29,Other,2024-07-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0115,F**** S***,ba********@example.net,XXXXXX9934,REDACTED,Hyderabad,Telangana,300632,1988-06-17,Male,2024-02-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0116,S***** M*****,ns******@example.com,XXXXXX5841,REDACTED,Bengaluru,Karnataka,630918,1955-12-18,Female,2025-02-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0117,F**** B****,ma*******@example.net,XXXXXX0295,REDACTED,Mumbai,Maharashtra,188436,1982-01-03,Female,2025-01-23,Gold,2026-07-02 16:18:55,6c59e737
+CUST0118,T***** S**,ba********************@example.net,XXXXXX8052,REDACTED,Jaipur,Rajasthan,176913,1975-05-10,Other,2021-10-20,Gold,2026-07-02 16:18:55,6c59e737
+CUST0119,A***** K****,ya***********@example.net,XXXXXX0423,REDACTED,Bengaluru,Karnataka,525291,1969-04-10,Male,2025-10-23,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0120,Z***** K*****,ma*******@example.net,XXXXXX7133,REDACTED,Bengaluru,Karnataka,229195,1964-01-05,Female,2022-07-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0121,D***** P****,ga***********@example.com,XXXXXX1392,REDACTED,Chennai,Tamil Nadu,511849,1974-11-20,Male,2024-10-24,Gold,2026-07-02 16:18:55,6c59e737
+CUST0122,Y***** S****,zb****@example.net,XXXXXX3510,REDACTED,Hyderabad,Telangana,184839,1977-06-06,Other,2025-03-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0123,W***** D***,ms*****@example.net,XXXXXX3793,REDACTED,Ahmedabad,Gujarat,805610,1986-01-07,Male,2022-02-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0124,J*** S****,nb****@example.org,XXXXXX7901,REDACTED,Hyderabad,Telangana,55964,1972-03-04,Other,2024-09-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0125,R***** G***,is***************@example.net,XXXXXX0048,REDACTED,Mumbai,Maharashtra,200978,1962-04-21,Male,2022-08-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0126,V*** R****,yu******@example.net,XXXXXX2318,REDACTED,Chennai,Tamil Nadu,447606,1965-07-23,Female,2021-08-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0127,D*** B****,pr********@example.org,XXXXXX1521,REDACTED,Jaipur,Rajasthan,688841,1971-06-17,Other,2025-11-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0128,Y*** D***,li******@example.net,XXXXXX8985,REDACTED,Jaipur,Rajasthan,380301,2003-04-04,Female,2025-07-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0129,W***** S****,sa******@example.net,XXXXXX5152,REDACTED,Delhi,Delhi,866183,1963-08-09,Other,2025-02-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0130,V****** N****,xd**@example.com,XXXXXX9953,REDACTED,Jaipur,Rajasthan,928174,1983-05-28,Other,2026-06-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0131,B***** J****,ca*****@example.org,XXXXXX3343,REDACTED,Jaipur,Rajasthan,664749,1956-10-30,Female,2021-10-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0132,M****** J****,ag********@example.com,XXXXXX5518,REDACTED,Jaipur,Rajasthan,786075,1964-09-02,Female,2022-02-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0133,O**** S****,or*******@example.com,XXXXXX9258,REDACTED,Kolkata,West Bengal,934428,1978-02-21,Male,2021-11-14,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0134,B***** S*****,ch***********@example.net,XXXXXX0153,REDACTED,Hyderabad,Telangana,248479,1985-12-19,Other,2021-07-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0135,K****** A***,zr**@example.net,XXXXXX7503,REDACTED,Jaipur,Rajasthan,555145,2007-01-19,Male,2025-10-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0136,M***** M*****,ne*******@example.net,XXXXXX5362,REDACTED,Ahmedabad,Gujarat,816502,2005-02-23,Other,2021-12-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0137,O***** R***,us******@example.org,XXXXXX2604,REDACTED,Delhi,Delhi,283396,1993-07-23,Male,2025-08-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0138,V***** T******,ko**********@example.com,XXXXXX3617,REDACTED,Delhi,Delhi,960535,2003-03-03,Other,2025-01-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0139,A**** J***,zp*****@example.org,XXXXXX9444,REDACTED,Ahmedabad,Gujarat,386109,1964-08-30,Female,2021-09-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0140,U***** M*****,jb*****@example.com,XXXXXX6590,REDACTED,Mumbai,Maharashtra,417446,1989-02-05,Female,2026-01-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0141,O*** R****,ba********@example.com,XXXXXX3367,REDACTED,Chennai,Tamil Nadu,303677,1976-05-08,Other,2023-12-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0142,V******* B****,sa*************@example.org,XXXXXX3059,REDACTED,Pune,Maharashtra,162960,1961-10-15,Other,2023-02-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0143,Y****** N****,se***************@example.org,XXXXXX1311,REDACTED,Pune,Maharashtra,659736,1996-08-29,Other,2021-12-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0144,T****** R****,sh**********@example.net,XXXXXX9106,REDACTED,Delhi,Delhi,127541,1949-05-01,Male,2025-03-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0145,L**** P*****,es******@example.com,XXXXXX5960,REDACTED,Lucknow,Uttar Pradesh,995031,1949-05-09,Other,2024-11-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0146,G***** B****,et******@example.org,XXXXXX0458,REDACTED,Mumbai,Maharashtra,699506,1951-08-17,Male,2024-02-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0147,A**** B****,ra******************@example.net,XXXXXX0070,REDACTED,Bengaluru,Karnataka,252699,1995-02-03,Female,2022-04-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0148,A***** A******,pr*********@example.net,XXXXXX2738,REDACTED,Delhi,Delhi,906968,1964-04-23,Male,2023-03-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0149,B********* S*****,da**********@example.com,XXXXXX1080,REDACTED,Hyderabad,Telangana,367570,1946-11-08,Other,2022-02-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0150,D******* C*****,at***********@example.org,XXXXXX0249,REDACTED,Delhi,Delhi,683432,1968-02-12,Other,2026-03-11,Gold,2026-07-02 16:18:55,6c59e737
+CUST0151,J***** C****,pb***@example.org,XXXXXX0516,REDACTED,Pune,Maharashtra,146949,1984-11-13,Female,2026-01-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0152,U*** G***,ek*********@example.org,XXXXXX6892,REDACTED,Delhi,Delhi,673439,1951-03-22,Male,2024-06-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0153,W****** P*****,im*****@example.org,XXXXXX1806,REDACTED,Mumbai,Maharashtra,187718,1984-10-04,Other,2021-07-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0154,O*** M*****,bo********@example.org,XXXXXX4236,REDACTED,Hyderabad,Telangana,330493,1992-01-27,Other,2023-08-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0155,O*** N*****,ur*******@example.net,XXXXXX3572,REDACTED,Mumbai,Maharashtra,382537,1950-04-07,Other,2021-08-18,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0156,M***** B****,os***@example.org,XXXXXX8348,REDACTED,Lucknow,Uttar Pradesh,648225,1963-03-09,Other,2022-03-11,Gold,2026-07-02 16:18:55,6c59e737
+CUST0157,F*** S*****,fk*****@example.net,XXXXXX9680,REDACTED,Ahmedabad,Gujarat,907806,1999-04-15,Male,2022-05-04,Gold,2026-07-02 16:18:55,6c59e737
+CUST0158,K**** K****,la***********@example.org,XXXXXX1351,REDACTED,Hyderabad,Telangana,751119,1948-04-19,Female,2024-04-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0159,M***** S***,ek*****@example.org,XXXXXX5366,REDACTED,Mumbai,Maharashtra,67871,1978-10-17,Other,2025-01-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0160,Z***** N***,za*********@example.com,XXXXXX2436,REDACTED,Ahmedabad,Gujarat,677198,1949-03-24,Female,2021-10-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0161,I***** K******,ja********@example.net,XXXXXX1315,REDACTED,Pune,Maharashtra,973482,1983-07-12,Female,2024-05-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0162,R****** U****,ya*****@example.com,XXXXXX6467,REDACTED,Bengaluru,Karnataka,412261,1998-09-12,Female,2024-09-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0163,K**** D***,sa*******@example.com,XXXXXX3466,REDACTED,Jaipur,Rajasthan,58136,1982-05-26,Female,2022-06-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0164,Z**** P*****,ha*******@example.net,XXXXXX9990,REDACTED,Mumbai,Maharashtra,943237,1957-10-12,Other,2025-09-02,Gold,2026-07-02 16:18:55,6c59e737
+CUST0165,K**** K***,pi**********@example.com,XXXXXX0293,REDACTED,Bengaluru,Karnataka,490555,1990-05-10,Male,2023-07-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0166,B******** G*****,ad**********@example.org,XXXXXX8098,REDACTED,Hyderabad,Telangana,109120,1985-02-16,Male,2024-05-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0167,A******* B*******,nc****@example.com,XXXXXX9894,REDACTED,Lucknow,Uttar Pradesh,368071,1971-08-21,Male,2026-04-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0168,H***** P******,lo*******@example.org,XXXXXX3827,REDACTED,Bengaluru,Karnataka,520812,1988-08-05,Female,2024-01-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0169,L*** B****,os****@example.net,XXXXXX7277,REDACTED,Pune,Maharashtra,552116,1964-03-13,Male,2021-08-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0170,E*** K***,fo**@example.org,XXXXXX4557,REDACTED,Kolkata,West Bengal,763411,1945-12-24,Female,2022-05-30,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0171,I*** L***,nb*******@example.com,XXXXXX0619,REDACTED,Mumbai,Maharashtra,106524,1968-10-14,Other,2025-05-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0172,A**** M****,ch*******@example.com,XXXXXX5084,REDACTED,Bengaluru,Karnataka,317967,1960-11-18,Female,2024-05-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0173,I***** O**,du********@example.org,XXXXXX2028,REDACTED,Pune,Maharashtra,11357,1998-04-06,Male,2023-01-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0174,D******* B****,sa******@example.com,XXXXXX2341,REDACTED,Delhi,Delhi,706000,1969-01-07,Male,2023-02-02,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0175,H**** B****,sw****@example.net,XXXXXX6458,REDACTED,Ahmedabad,Gujarat,417807,1967-11-30,Male,2022-12-15,Gold,2026-07-02 16:18:55,6c59e737
+CUST0176,B***** L**,fb***@example.com,XXXXXX2103,REDACTED,Kolkata,West Bengal,259156,1975-11-03,Other,2024-03-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0177,S*** M*****,ba********@example.com,XXXXXX2998,REDACTED,Ahmedabad,Gujarat,85563,1961-04-25,Other,2025-07-04,Gold,2026-07-02 16:18:55,6c59e737
+CUST0178,A**** P*****,da********@example.org,XXXXXX3539,REDACTED,Pune,Maharashtra,853949,1952-02-27,Other,2024-03-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0179,V******* G****,su******@example.com,XXXXXX2999,REDACTED,Pune,Maharashtra,214431,1978-04-17,Female,2023-08-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0180,K**** C*******,ke****@example.net,XXXXXX6341,REDACTED,Jaipur,Rajasthan,240348,1963-04-02,Other,2024-09-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0181,R***** M****,ra*******@example.net,XXXXXX5496,REDACTED,Pune,Maharashtra,61316,1995-04-18,Female,2025-10-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0182,R*** C*****,si*********@example.org,XXXXXX7316,REDACTED,Pune,Maharashtra,552024,1958-05-28,Male,2024-09-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0183,J**** M****,at*****@example.net,XXXXXX7729,REDACTED,Jaipur,Rajasthan,594702,1971-12-19,Male,2023-05-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0184,E***** J***,ba*********@example.net,XXXXXX3289,REDACTED,Pune,Maharashtra,751696,1999-08-28,Female,2022-01-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0185,V****** J**,dh*****@example.com,XXXXXX0880,REDACTED,Delhi,Delhi,903037,2006-11-25,Female,2023-06-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0186,R*** K***,ms*********@example.com,XXXXXX2517,REDACTED,Mumbai,Maharashtra,612120,1962-09-01,Other,2023-09-09,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0187,X*** C*****,qa*****@example.com,XXXXXX9284,REDACTED,Pune,Maharashtra,335344,1973-09-26,Female,2021-08-08,Gold,2026-07-02 16:18:55,6c59e737
+CUST0188,E******* S*****,vi*****@example.org,XXXXXX5430,REDACTED,Pune,Maharashtra,270401,1952-11-13,Male,2024-08-04,Gold,2026-07-02 16:18:55,6c59e737
+CUST0189,W****** N***,ha***********@example.org,XXXXXX4608,REDACTED,Ahmedabad,Gujarat,936862,2007-04-26,Other,2025-09-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0190,C****** D****,xs*****@example.org,XXXXXX7452,REDACTED,Bengaluru,Karnataka,830150,1995-01-19,Other,2023-06-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0191,Y**** G****,vi*************@example.net,XXXXXX8824,REDACTED,Jaipur,Rajasthan,681366,1983-08-08,Other,2025-07-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0192,C****** S**,na*********@example.net,XXXXXX5024,REDACTED,Ahmedabad,Gujarat,725715,1991-10-25,Female,2026-02-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0193,A*** B***,fb***@example.net,XXXXXX9260,REDACTED,Ahmedabad,Gujarat,985404,1976-05-02,Female,2024-11-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0194,D**** M*****,qu******@example.com,XXXXXX6239,REDACTED,Delhi,Delhi,904816,1989-11-27,Female,2024-11-14,Gold,2026-07-02 16:18:55,6c59e737
+CUST0195,V***** S*****,ch*********@example.net,XXXXXX0914,REDACTED,Ahmedabad,Gujarat,858443,1947-02-04,Other,2024-02-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0196,A**** S******,ni********@example.net,XXXXXX6458,REDACTED,Delhi,Delhi,234009,1955-04-09,Other,2023-10-27,Gold,2026-07-02 16:18:55,6c59e737
+CUST0197,M**** B*****,he******************@example.com,XXXXXX9753,REDACTED,Lucknow,Uttar Pradesh,441255,1976-12-24,Female,2021-12-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0198,W******* T***,sd***@example.org,XXXXXX9393,REDACTED,Delhi,Delhi,7439,2001-10-26,Other,2024-10-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0199,S*** C****,va************@example.com,XXXXXX3008,REDACTED,Pune,Maharashtra,408816,1999-10-03,Female,2023-11-13,Gold,2026-07-02 16:18:55,6c59e737
+CUST0200,J******* M*******,da*********@example.net,XXXXXX0163,REDACTED,Bengaluru,Karnataka,785183,1978-11-06,Other,2022-04-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0201,M****** R**,me*********@example.net,XXXXXX7569,REDACTED,Pune,Maharashtra,899110,1994-06-25,Female,2021-09-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0202,C******** S*****,da**********@example.com,XXXXXX1564,REDACTED,Kolkata,West Bengal,770189,2006-12-23,Male,2025-10-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0203,R**** B***,je*******@example.com,XXXXXX8090,REDACTED,Delhi,Delhi,492186,1978-11-25,Other,2021-08-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0204,V***** J***,da**********@example.org,XXXXXX4936,REDACTED,Jaipur,Rajasthan,769500,1970-09-09,Other,2023-10-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0205,Y******** K****,nr***@example.net,XXXXXX8960,REDACTED,Bengaluru,Karnataka,341955,1955-01-24,Other,2023-05-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0206,W**** S****,ch*************@example.org,XXXXXX0389,REDACTED,Hyderabad,Telangana,173486,1962-07-06,Female,2022-10-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0207,K**** A****,sa*******@example.com,XXXXXX5129,REDACTED,Chennai,Tamil Nadu,842318,1987-06-26,Male,2022-10-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0208,D****** R*******,sh************@example.org,XXXXXX9771,REDACTED,Kolkata,West Bengal,554866,1963-08-14,Other,2023-01-31,Silver,2026-07-02 16:18:55,6c59e737
+CUST0209,N**** T****,ov*****@example.net,XXXXXX7206,REDACTED,Chennai,Tamil Nadu,512481,1972-12-09,Male,2023-10-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0210,D******* D**,sh*************@example.net,XXXXXX7581,REDACTED,Hyderabad,Telangana,319863,1968-01-06,Other,2025-05-19,Gold,2026-07-02 16:18:55,6c59e737
+CUST0211,A****** K***,ma******@example.org,XXXXXX6524,REDACTED,Mumbai,Maharashtra,623833,1998-01-26,Male,2022-05-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0212,V****** K****,gr**********@example.org,XXXXXX0101,REDACTED,Delhi,Delhi,271667,1959-01-25,Female,2022-08-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0213,I**** M*****,la*****@example.org,XXXXXX1342,REDACTED,Ahmedabad,Gujarat,109163,1984-04-06,Male,2025-12-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0214,G******* T*****,qa********@example.org,XXXXXX1593,REDACTED,Mumbai,Maharashtra,298440,1988-08-24,Male,2023-02-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0215,Z***** T*****,ro********@example.net,XXXXXX6029,REDACTED,Kolkata,West Bengal,664958,1972-11-23,Male,2023-09-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0216,I*** M********,na**********@example.com,XXXXXX8946,REDACTED,Kolkata,West Bengal,543206,1953-09-09,Other,2023-02-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0217,D***** K*****,od*******@example.org,XXXXXX8115,REDACTED,Mumbai,Maharashtra,376926,1975-06-20,Female,2023-03-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0218,Y***** R*****,ma********@example.com,XXXXXX6043,REDACTED,Mumbai,Maharashtra,36842,2004-01-12,Male,2022-01-30,Gold,2026-07-02 16:18:55,6c59e737
+CUST0219,J**** D***,lu************@example.net,XXXXXX3848,REDACTED,Ahmedabad,Gujarat,73357,1992-07-29,Other,2025-08-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0220,W**** S***,do***********@example.com,XXXXXX5783,REDACTED,Mumbai,Maharashtra,263032,1972-09-28,Female,2025-04-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0221,C***** Z********,pa*************@example.org,XXXXXX8083,REDACTED,Kolkata,West Bengal,70045,2002-02-04,Female,2022-10-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0222,J***** L***,ch***********@example.com,XXXXXX8293,REDACTED,Mumbai,Maharashtra,454732,1946-05-31,Male,2022-11-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0223,Q**** M***,vl***@example.net,XXXXXX0071,REDACTED,Ahmedabad,Gujarat,99189,1955-10-15,Female,2022-08-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0224,M***** B****,ov********@example.net,XXXXXX6218,REDACTED,Bengaluru,Karnataka,953582,1972-10-17,Male,2022-07-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0225,G***** G****,vi******@example.net,XXXXXX6090,REDACTED,Chennai,Tamil Nadu,774594,1959-01-03,Male,2024-04-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0226,V***** M********,la*********@example.net,XXXXXX4552,REDACTED,Mumbai,Maharashtra,904257,1992-02-28,Male,2022-10-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0227,T****** T*****,pr****@example.com,XXXXXX9049,REDACTED,Delhi,Delhi,983287,1987-06-26,Other,2022-06-23,Gold,2026-07-02 16:18:55,6c59e737
+CUST0228,A**** S***,ha*******@example.net,XXXXXX9443,REDACTED,Delhi,Delhi,894821,1985-04-27,Male,2024-02-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0229,E**** D**,sk****@example.org,XXXXXX1775,REDACTED,Chennai,Tamil Nadu,473422,1987-07-30,Other,2025-04-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0230,M***** B*****,ab*********@example.org,XXXXXX5931,REDACTED,Bengaluru,Karnataka,620973,1980-09-03,Female,2026-06-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0231,L*** B****,ma**********@example.net,XXXXXX9178,REDACTED,Kolkata,West Bengal,913702,1969-09-11,Female,2023-06-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0232,L****** T*******,gr***********@example.net,XXXXXX2517,REDACTED,Lucknow,Uttar Pradesh,303792,1947-01-29,Other,2025-06-06,Gold,2026-07-02 16:18:55,6c59e737
+CUST0233,I******* P*****,ch*********@example.net,XXXXXX2290,REDACTED,Delhi,Delhi,139420,1945-07-31,Other,2023-04-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0234,Z**** D***,pa*******@example.com,XXXXXX8792,REDACTED,Bengaluru,Karnataka,72932,1993-10-04,Female,2024-03-26,Gold,2026-07-02 16:18:55,6c59e737
+CUST0235,Q**** S***,ku*********@example.org,XXXXXX3499,REDACTED,Chennai,Tamil Nadu,129330,1959-05-29,Male,2024-02-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0236,N***** S**,id********@example.com,XXXXXX0919,REDACTED,Mumbai,Maharashtra,137616,2003-11-04,Male,2022-05-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0237,U*** C*******,ba********@example.net,XXXXXX9618,REDACTED,Jaipur,Rajasthan,753129,1958-06-06,Male,2025-02-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0238,W**** R****,ew***@example.com,XXXXXX3368,REDACTED,Jaipur,Rajasthan,662502,1991-10-12,Other,2024-11-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0239,I****** B**,de*********@example.org,XXXXXX8657,REDACTED,Pune,Maharashtra,817528,1996-09-09,Other,2024-02-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0240,V***** D**,ma*******@example.com,XXXXXX3743,REDACTED,Pune,Maharashtra,957401,1948-05-06,Other,2026-03-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0241,S******* S****,na*******@example.com,XXXXXX4309,REDACTED,Jaipur,Rajasthan,270953,1987-05-10,Female,2024-08-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0242,J**** D****,yp****@example.com,XXXXXX5987,REDACTED,Kolkata,West Bengal,656837,1950-02-06,Male,2024-12-31,Silver,2026-07-02 16:18:55,6c59e737
+CUST0243,H**** P*****,ch************@example.com,XXXXXX0724,REDACTED,Ahmedabad,Gujarat,591844,1962-11-28,Female,2025-02-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0244,A***** D*****,ch************@example.net,XXXXXX5265,REDACTED,Lucknow,Uttar Pradesh,249093,1998-04-07,Other,2026-04-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0245,C****** P*****,ka*******@example.org,XXXXXX7963,REDACTED,Ahmedabad,Gujarat,318866,1964-04-18,Male,2026-01-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0246,C****** B***,ra********@example.net,XXXXXX1639,REDACTED,Pune,Maharashtra,885407,1947-07-19,Female,2025-01-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0247,A***** S*******,fa*******@example.net,XXXXXX6209,REDACTED,Mumbai,Maharashtra,233642,1984-01-23,Female,2023-02-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0248,O***** P*****,qa*****@example.org,XXXXXX2582,REDACTED,Lucknow,Uttar Pradesh,901543,1956-04-04,Female,2026-01-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0249,T***** S****,zi**********@example.net,XXXXXX1485,REDACTED,Delhi,Delhi,273246,1964-04-05,Other,2023-02-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0250,C******* G***,av*******@example.org,XXXXXX6446,REDACTED,Pune,Maharashtra,983245,1959-07-27,Female,2026-04-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0251,E***** W*****,jj***@example.net,XXXXXX3418,REDACTED,Delhi,Delhi,936778,1985-03-09,Other,2025-09-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0252,L****** S*****,da*******@example.net,XXXXXX6868,REDACTED,Chennai,Tamil Nadu,376852,1960-06-06,Female,2026-06-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0253,B***** P****,ma*********@example.com,XXXXXX8501,REDACTED,Pune,Maharashtra,914421,2000-01-15,Other,2026-03-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0254,K****** P*****,pa********@example.net,XXXXXX4952,REDACTED,Hyderabad,Telangana,226397,1998-10-09,Other,2023-01-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0255,A***** V***,ba******@example.com,XXXXXX2989,REDACTED,Lucknow,Uttar Pradesh,540825,1984-10-23,Other,2024-12-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0256,D** D****,na******@example.net,XXXXXX8526,REDACTED,Pune,Maharashtra,252742,1971-11-11,Female,2026-05-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0257,U***** D***,ku*************@example.org,XXXXXX7089,REDACTED,Chennai,Tamil Nadu,830130,1955-04-04,Other,2024-06-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0258,M***** J****,bn***@example.com,XXXXXX2575,REDACTED,Mumbai,Maharashtra,661976,2003-09-14,Female,2026-03-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0259,D***** B****,da*********@example.org,XXXXXX7459,REDACTED,Kolkata,West Bengal,337019,1950-11-22,Other,2025-02-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0260,O***** C********,da*******@example.com,XXXXXX4503,REDACTED,Delhi,Delhi,339064,1959-01-10,Male,2026-02-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0261,J*** A******,nd****@example.org,XXXXXX3576,REDACTED,Hyderabad,Telangana,251468,1992-10-05,Other,2021-08-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0262,R******* S****,da*********@example.org,XXXXXX4544,REDACTED,Hyderabad,Telangana,959797,1953-01-04,Female,2025-06-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0263,M****** G***,fj***@example.org,XXXXXX9002,REDACTED,Ahmedabad,Gujarat,259192,1977-05-26,Male,2022-05-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0264,J***** D***,su*************@example.com,XXXXXX3364,REDACTED,Pune,Maharashtra,680974,1963-08-07,Other,2022-12-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0265,D** R*******,ou*******@example.com,XXXXXX3365,REDACTED,Lucknow,Uttar Pradesh,701177,2005-09-04,Other,2024-03-14,Gold,2026-07-02 16:18:55,6c59e737
+CUST0266,V****** C**********,xr****@example.com,XXXXXX4989,REDACTED,Mumbai,Maharashtra,526863,1990-03-04,Other,2025-06-03,Silver,2026-07-02 16:18:55,6c59e737
+CUST0267,T****** D****,cb****@example.net,XXXXXX2875,REDACTED,Bengaluru,Karnataka,426924,1984-09-19,Female,2024-03-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0268,B******* B*******,ma********@example.com,XXXXXX6470,REDACTED,Lucknow,Uttar Pradesh,165188,2001-09-08,Female,2022-05-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0269,Y*** V**,ga*******@example.org,XXXXXX5241,REDACTED,Chennai,Tamil Nadu,99517,1966-09-06,Female,2022-12-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0270,C***** K*****,ns***@example.com,XXXXXX4895,REDACTED,Hyderabad,Telangana,510222,1991-02-10,Male,2021-10-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0271,A****** G***,la*****@example.net,XXXXXX6405,REDACTED,Jaipur,Rajasthan,263780,1953-07-15,Male,2025-01-19,Gold,2026-07-02 16:18:55,6c59e737
+CUST0272,E**** S*****,ch******@example.net,XXXXXX6166,REDACTED,Kolkata,West Bengal,955076,1947-07-31,Other,2024-06-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0273,Q**** S****,yu******@example.com,XXXXXX3499,REDACTED,Mumbai,Maharashtra,989847,1993-10-03,Female,2026-05-27,Gold,2026-07-02 16:18:55,6c59e737
+CUST0274,D***** M****,rg***@example.com,XXXXXX7971,REDACTED,Hyderabad,Telangana,874486,1972-12-31,Other,2022-01-08,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0275,A***** M***,aa******@example.com,XXXXXX8837,REDACTED,Jaipur,Rajasthan,998336,2007-12-13,Male,2021-08-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0276,F**** R***********,os***********@example.net,XXXXXX2154,REDACTED,Bengaluru,Karnataka,20082,1988-06-15,Male,2025-07-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0277,A****** N****,la*******@example.net,XXXXXX3584,REDACTED,Bengaluru,Karnataka,397685,1975-04-09,Other,2023-12-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0278,G******* C***,gs***@example.org,XXXXXX6310,REDACTED,Ahmedabad,Gujarat,856279,1972-05-17,Other,2023-06-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0279,P**** C*********,pa*********@example.com,XXXXXX7643,REDACTED,Mumbai,Maharashtra,15444,1971-09-24,Female,2023-07-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0280,D***** S*******,db*******@example.org,XXXXXX8968,REDACTED,Kolkata,West Bengal,634775,1976-01-28,Male,2025-03-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0281,P**** K***,lu*******@example.com,XXXXXX3039,REDACTED,Bengaluru,Karnataka,864758,1957-10-03,Male,2022-10-08,Silver,2026-07-02 16:18:55,6c59e737
+CUST0282,P**** S****,va**********@example.com,XXXXXX5007,REDACTED,Bengaluru,Karnataka,126462,1961-07-24,Other,2023-05-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0283,V****** G*****,wb****@example.org,XXXXXX1905,REDACTED,Lucknow,Uttar Pradesh,946171,1984-04-26,Female,2021-08-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0284,O*** N*******,ts***@example.org,XXXXXX9327,REDACTED,Chennai,Tamil Nadu,741870,1946-12-28,Female,2021-11-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0285,J**** S***,lg***@example.org,XXXXXX9865,REDACTED,Jaipur,Rajasthan,166154,1983-09-21,Male,2024-05-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0286,R***** P*****,cv***********@example.com,XXXXXX3837,REDACTED,Hyderabad,Telangana,518456,1968-01-11,Other,2022-03-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0287,D***** B****,jb*****@example.net,XXXXXX9805,REDACTED,Lucknow,Uttar Pradesh,582668,1987-02-16,Female,2025-06-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0288,B****** H***,ch********@example.org,XXXXXX6284,REDACTED,Ahmedabad,Gujarat,727713,1992-07-26,Male,2022-04-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0289,R*** S*****,da******@example.net,XXXXXX1314,REDACTED,Pune,Maharashtra,46434,1976-06-21,Female,2022-02-20,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0290,Y***** M*****,si******@example.com,XXXXXX1710,REDACTED,Bengaluru,Karnataka,90254,1957-05-07,Male,2023-12-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0291,A****** K***,wp******@example.net,XXXXXX3600,REDACTED,Ahmedabad,Gujarat,348239,2005-07-17,Female,2023-10-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0292,T***** K***,ah*********@example.net,XXXXXX3598,REDACTED,Bengaluru,Karnataka,207127,1984-07-06,Other,2023-03-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0293,B****** A****,kr***********@example.org,XXXXXX1422,REDACTED,Jaipur,Rajasthan,416409,2004-06-30,Other,2021-11-08,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0294,Y***** S*****,jk*****@example.net,XXXXXX1864,REDACTED,Mumbai,Maharashtra,352649,1980-11-13,Male,2026-02-11,Gold,2026-07-02 16:18:55,6c59e737
+CUST0295,C******** B****,el***@example.com,XXXXXX9727,REDACTED,Delhi,Delhi,358522,1956-11-27,Other,2022-09-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0296,D**** P*****,xs***@example.org,XXXXXX0462,REDACTED,Kolkata,West Bengal,447683,1955-12-07,Male,2026-04-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0297,D***** B***,ja*********@example.org,XXXXXX2567,REDACTED,Chennai,Tamil Nadu,738483,1997-06-15,Other,2026-02-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0298,P****** R**,so********@example.com,XXXXXX4236,REDACTED,Ahmedabad,Gujarat,188261,1980-07-11,Other,2021-08-03,Gold,2026-07-02 16:18:55,6c59e737
+CUST0299,E***** R***********,gi********@example.net,XXXXXX2290,REDACTED,Delhi,Delhi,239311,1976-02-13,Male,2022-07-18,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0300,J**** B****,dh**********@example.net,XXXXXX5393,REDACTED,Hyderabad,Telangana,375366,1998-01-26,Other,2026-01-19,Silver,2026-07-02 16:18:55,6c59e737
+CUST0301,G***** B***,ba********@example.com,XXXXXX5421,REDACTED,Kolkata,West Bengal,350961,2002-07-18,Male,2024-07-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0302,K**** S*****,ba**********@example.net,XXXXXX9646,REDACTED,Lucknow,Uttar Pradesh,452845,1970-12-25,Male,2021-10-31,Gold,2026-07-02 16:18:55,6c59e737
+CUST0303,E**** R********,la*******@example.org,XXXXXX9246,REDACTED,Chennai,Tamil Nadu,785922,1953-09-27,Male,2025-09-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0304,O**** V****,wa********@example.net,XXXXXX4125,REDACTED,Delhi,Delhi,854708,1968-04-06,Female,2024-07-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0305,S*** K****,az*****@example.org,XXXXXX6939,REDACTED,Pune,Maharashtra,890603,1950-12-26,Female,2022-03-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0306,H******** K*****,wa************@example.com,XXXXXX2887,REDACTED,Hyderabad,Telangana,116405,1993-05-22,Female,2023-10-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0307,U***** C****,la*******@example.com,XXXXXX6511,REDACTED,Lucknow,Uttar Pradesh,985892,1997-11-08,Male,2024-07-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0308,N**** C********,mi*********@example.net,XXXXXX4687,REDACTED,Jaipur,Rajasthan,796786,1959-08-18,Female,2021-09-19,Silver,2026-07-02 16:18:55,6c59e737
+CUST0309,Y******** B*****,od**********@example.net,XXXXXX7889,REDACTED,Bengaluru,Karnataka,531994,1994-08-03,Female,2026-06-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0310,A*** G******,ba********************@example.org,XXXXXX2729,REDACTED,Jaipur,Rajasthan,542373,1964-01-27,Other,2026-04-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0311,K**** P**,va*******@example.net,XXXXXX7946,REDACTED,Chennai,Tamil Nadu,5941,1947-08-13,Male,2026-05-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0312,V****** G****,ad*******@example.org,XXXXXX9545,REDACTED,Mumbai,Maharashtra,787200,1971-02-21,Female,2025-07-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0313,J** V********,nd***@example.net,XXXXXX6650,REDACTED,Hyderabad,Telangana,843429,1946-03-01,Other,2022-07-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0314,U******** M****,gc********@example.org,XXXXXX7147,REDACTED,Kolkata,West Bengal,797472,1963-10-20,Female,2023-10-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0315,X**** R*******,la**********@example.net,XXXXXX9343,REDACTED,Bengaluru,Karnataka,334705,1948-03-29,Male,2024-05-21,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0316,M***** S***,ow****@example.com,XXXXXX8867,REDACTED,Lucknow,Uttar Pradesh,102418,1965-02-18,Other,2022-03-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0317,A******** T*****,ap****@example.net,XXXXXX4113,REDACTED,Delhi,Delhi,129559,1999-05-09,Male,2025-04-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0318,E**** L***,de*******@example.net,XXXXXX4005,REDACTED,Bengaluru,Karnataka,219132,1965-12-05,Male,2022-10-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0319,A*** V***,ag**********@example.org,XXXXXX6973,REDACTED,Lucknow,Uttar Pradesh,586530,1975-10-06,Female,2026-04-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0320,C****** S*******,js****@example.org,XXXXXX8997,REDACTED,Bengaluru,Karnataka,539830,1991-02-09,Other,2022-10-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0321,T***** P****,bu**********@example.net,XXXXXX2937,REDACTED,Mumbai,Maharashtra,438270,1982-12-01,Male,2025-05-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0322,A***** R**,is******@example.net,XXXXXX9120,REDACTED,Bengaluru,Karnataka,821116,1961-05-14,Female,2024-06-22,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0323,Y****** M***,bh**************@example.com,XXXXXX8520,REDACTED,Lucknow,Uttar Pradesh,448859,1982-10-01,Other,2025-12-13,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0324,Y******* D***,ne**********@example.org,XXXXXX6427,REDACTED,Bengaluru,Karnataka,587700,1955-12-08,Other,2022-12-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0325,U**** B****,da*********@example.com,XXXXXX7445,REDACTED,Mumbai,Maharashtra,188788,1950-05-06,Female,2026-06-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0326,R***** V**,sa*********@example.com,XXXXXX4091,REDACTED,Ahmedabad,Gujarat,116986,1997-01-08,Other,2023-04-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0327,P**** K******,zn*****@example.org,XXXXXX8198,REDACTED,Bengaluru,Karnataka,780251,1986-04-19,Female,2025-01-20,Gold,2026-07-02 16:18:55,6c59e737
+CUST0328,Y**** K***,mo*******@example.net,XXXXXX8918,REDACTED,Jaipur,Rajasthan,95478,1976-09-26,Female,2025-01-03,Gold,2026-07-02 16:18:55,6c59e737
+CUST0329,O**** B****,ni**********@example.com,XXXXXX9537,REDACTED,Mumbai,Maharashtra,745742,1982-11-26,Female,2021-10-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0330,E***** B******,ga******@example.com,XXXXXX8821,REDACTED,Delhi,Delhi,906036,2001-12-25,Female,2021-10-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0331,L****** N********,lu********@example.org,XXXXXX6499,REDACTED,Kolkata,West Bengal,749912,1967-08-24,Male,2022-05-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0332,M***** G****,nh*****@example.com,XXXXXX6267,REDACTED,Kolkata,West Bengal,823028,1989-04-15,Male,2021-11-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0333,C****** B****,sa********@example.org,XXXXXX6043,REDACTED,Kolkata,West Bengal,462620,2008-06-11,Female,2026-03-08,Silver,2026-07-02 16:18:55,6c59e737
+CUST0334,O**** B**************,za******@example.org,XXXXXX8767,REDACTED,Jaipur,Rajasthan,801771,1977-05-11,Other,2023-05-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0335,D**** M****,ma*******@example.org,XXXXXX1288,REDACTED,Ahmedabad,Gujarat,921757,2000-09-08,Female,2023-02-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0336,G***** D***,hr******@example.com,XXXXXX1872,REDACTED,Kolkata,West Bengal,138341,1957-06-23,Male,2022-05-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0337,A***** D*,ba********@example.com,XXXXXX1979,REDACTED,Jaipur,Rajasthan,374242,1968-09-28,Male,2023-09-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0338,M***** C****,an*****@example.com,XXXXXX2886,REDACTED,Pune,Maharashtra,142572,1969-01-27,Other,2022-05-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0339,P***** S*****,mi***********@example.com,XXXXXX7367,REDACTED,Bengaluru,Karnataka,281823,1973-12-31,Female,2026-06-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0340,L**** B***,at******@example.net,XXXXXX1436,REDACTED,Hyderabad,Telangana,56340,1957-01-30,Female,2023-10-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0341,R***** O*,ko***********@example.com,XXXXXX8931,REDACTED,Pune,Maharashtra,508671,1986-09-27,Female,2021-10-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0342,T**** D***,sa*******@example.org,XXXXXX9370,REDACTED,Delhi,Delhi,416871,1996-02-21,Other,2023-12-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0343,R***** S*******,jo************@example.net,XXXXXX5087,REDACTED,Delhi,Delhi,145357,1978-09-29,Other,2026-01-19,Silver,2026-07-02 16:18:55,6c59e737
+CUST0344,C******* S****,da***************@example.org,XXXXXX8578,REDACTED,Kolkata,West Bengal,544363,2006-02-25,Female,2021-10-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0345,C********* B***,si****@example.com,XXXXXX4551,REDACTED,Pune,Maharashtra,522207,1984-02-12,Male,2025-03-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0346,K**** S******,go**********@example.com,XXXXXX9210,REDACTED,Kolkata,West Bengal,662265,1956-08-03,Other,2024-11-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0347,C***** K***,da**********@example.com,XXXXXX3261,REDACTED,Ahmedabad,Gujarat,712264,2001-05-02,Female,2023-06-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0348,A**** B***,mk***@example.com,XXXXXX6650,REDACTED,Chennai,Tamil Nadu,762006,1983-01-23,Male,2025-06-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0349,S****** D*******,hs*****@example.org,XXXXXX3552,REDACTED,Lucknow,Uttar Pradesh,706758,1986-11-05,Female,2024-10-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0350,E******* A***,xn****@example.org,XXXXXX6361,REDACTED,Hyderabad,Telangana,465981,1962-02-25,Other,2023-08-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0351,Y****** D****,bh*******@example.net,XXXXXX6406,REDACTED,Ahmedabad,Gujarat,365738,1972-10-27,Female,2023-10-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0352,Z***** M******,bh************@example.org,XXXXXX0324,REDACTED,Chennai,Tamil Nadu,522610,1965-02-01,Female,2023-04-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0353,G****** Y****,sa***********@example.com,XXXXXX8229,REDACTED,Chennai,Tamil Nadu,500657,2002-09-18,Female,2021-09-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0354,Z***** M*******,sa********@example.net,XXXXXX3082,REDACTED,Lucknow,Uttar Pradesh,816028,1968-11-21,Male,2023-07-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0355,B****** O**,ma*********@example.org,XXXXXX2309,REDACTED,Hyderabad,Telangana,757024,1953-09-10,Other,2022-04-27,Gold,2026-07-02 16:18:55,6c59e737
+CUST0356,K***** D****,ba***********@example.com,XXXXXX6064,REDACTED,Delhi,Delhi,24309,1988-10-05,Other,2022-07-03,Gold,2026-07-02 16:18:55,6c59e737
+CUST0357,U******** P*****,mr*******@example.org,XXXXXX8496,REDACTED,Kolkata,West Bengal,284348,1957-05-19,Other,2026-06-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0358,M****** H***,ya********@example.net,XXXXXX3286,REDACTED,Hyderabad,Telangana,469681,1964-06-29,Female,2022-01-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0359,A** D**,kv********@example.net,XXXXXX2250,REDACTED,Bengaluru,Karnataka,665129,1952-06-13,Other,2021-12-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0360,U*** K****,pa******@example.org,XXXXXX1873,REDACTED,Delhi,Delhi,761341,1948-02-05,Female,2023-04-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0361,M****** B***,dh********@example.org,XXXXXX0620,REDACTED,Chennai,Tamil Nadu,562221,2000-05-26,Female,2025-11-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0362,Y****** V***,va******@example.com,XXXXXX2143,REDACTED,Hyderabad,Telangana,741014,1964-12-17,Other,2021-08-15,Gold,2026-07-02 16:18:55,6c59e737
+CUST0363,A*** S******,up*********@example.org,XXXXXX7982,REDACTED,Mumbai,Maharashtra,946285,2005-09-20,Other,2021-11-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0364,J***** B****,na**********@example.org,XXXXXX7048,REDACTED,Hyderabad,Telangana,888611,1948-06-20,Female,2022-04-11,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0365,P****** C*****,mi******@example.com,XXXXXX4041,REDACTED,Ahmedabad,Gujarat,471614,1995-11-26,Female,2022-06-30,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0366,G****** S*****,ja*******@example.net,XXXXXX4259,REDACTED,Delhi,Delhi,714555,2007-02-05,Other,2026-05-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0367,E**** H***,ja**********@example.net,XXXXXX8860,REDACTED,Mumbai,Maharashtra,963693,1980-02-29,Male,2023-05-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0368,S****** A*******,ma***********@example.org,XXXXXX6002,REDACTED,Ahmedabad,Gujarat,105837,1950-10-28,Other,2025-11-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0369,S***** K***,vi**************@example.com,XXXXXX6961,REDACTED,Mumbai,Maharashtra,431836,1954-07-21,Other,2026-05-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0370,Z**** P******,gs****@example.com,XXXXXX8634,REDACTED,Jaipur,Rajasthan,844158,1965-09-07,Other,2022-08-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0371,P**** R****,jo**********@example.net,XXXXXX2668,REDACTED,Ahmedabad,Gujarat,425295,1956-04-13,Male,2021-08-13,Gold,2026-07-02 16:18:55,6c59e737
+CUST0372,W***** M*******,br**************@example.org,XXXXXX6981,REDACTED,Mumbai,Maharashtra,653100,1987-11-27,Male,2025-02-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0373,A****** N*****,an**************@example.org,XXXXXX8382,REDACTED,Hyderabad,Telangana,156049,1999-12-09,Female,2024-05-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0374,D***** D*******,rb***@example.com,XXXXXX9348,REDACTED,Chennai,Tamil Nadu,852431,1976-03-16,Female,2022-11-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0375,A***** R********,ik************@example.com,XXXXXX3819,REDACTED,Lucknow,Uttar Pradesh,448371,1987-04-01,Other,2025-09-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0376,G**** A****,ma*********@example.com,XXXXXX3659,REDACTED,Lucknow,Uttar Pradesh,991142,1987-02-07,Other,2025-03-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0377,K** S*****,od*****@example.net,XXXXXX1606,REDACTED,Chennai,Tamil Nadu,181342,1950-12-09,Male,2024-09-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0378,V***** S*****,mi********@example.org,XXXXXX1897,REDACTED,Lucknow,Uttar Pradesh,137116,1975-02-10,Female,2022-06-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0379,A*** B***,pd****@example.net,XXXXXX8654,REDACTED,Ahmedabad,Gujarat,997164,1954-06-24,Other,2024-03-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0380,C******* M*****,cy***@example.com,XXXXXX2582,REDACTED,Hyderabad,Telangana,119957,1946-11-18,Female,2025-01-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0381,N*** N***,ma****************@example.net,XXXXXX9421,REDACTED,Lucknow,Uttar Pradesh,270530,1996-05-29,Other,2024-06-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0382,Z**** B**,ma*************@example.net,XXXXXX4725,REDACTED,Chennai,Tamil Nadu,103684,1997-10-25,Female,2022-03-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0383,F**** A****,ck***@example.com,XXXXXX3316,REDACTED,Delhi,Delhi,609184,1947-12-03,Other,2022-07-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0384,W**** B****,qs***@example.com,XXXXXX1614,REDACTED,Lucknow,Uttar Pradesh,380865,1989-04-15,Male,2026-01-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0385,T*** G****,mo******@example.org,XXXXXX3423,REDACTED,Pune,Maharashtra,780772,1992-06-26,Other,2023-10-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0386,T**** O**,ar*****@example.net,XXXXXX8052,REDACTED,Ahmedabad,Gujarat,389551,1954-01-12,Female,2023-04-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0387,Y****** A****,ni*****@example.org,XXXXXX9020,REDACTED,Hyderabad,Telangana,971830,2004-07-21,Female,2025-05-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0388,Z**** R******,ja******@example.net,XXXXXX8505,REDACTED,Ahmedabad,Gujarat,108137,1964-01-25,Female,2025-06-19,Silver,2026-07-02 16:18:55,6c59e737
+CUST0389,K***** D***,vs****@example.net,XXXXXX9399,REDACTED,Delhi,Delhi,257733,2000-04-23,Female,2024-11-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0390,A**** R**,ya*******@example.com,XXXXXX6058,REDACTED,Jaipur,Rajasthan,39434,1968-07-05,Other,2023-07-19,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0391,S*** S******,ch*******@example.org,XXXXXX4716,REDACTED,Lucknow,Uttar Pradesh,974858,1980-09-05,Male,2022-02-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0392,B***** V***,va***************@example.org,XXXXXX0001,REDACTED,Delhi,Delhi,224228,1997-11-28,Male,2024-09-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0393,B******* I****,ve********@example.net,XXXXXX0577,REDACTED,Lucknow,Uttar Pradesh,164949,1976-05-17,Female,2023-03-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0394,E**** N*****,sa************@example.com,XXXXXX4277,REDACTED,Pune,Maharashtra,827218,2005-12-14,Female,2022-05-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0395,U*** G***,pa*****@example.org,XXXXXX0800,REDACTED,Bengaluru,Karnataka,653571,1990-01-06,Female,2022-10-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0396,J***** M*******,pb*****@example.net,XXXXXX6911,REDACTED,Mumbai,Maharashtra,97125,1961-03-12,Male,2022-02-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0397,B******** J****,di****@example.org,XXXXXX6917,REDACTED,Delhi,Delhi,246762,1983-10-03,Female,2022-10-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0398,B***** B****,wb***@example.org,XXXXXX8194,REDACTED,Jaipur,Rajasthan,570436,1988-01-15,Male,2025-12-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0399,D***** S******,ge*********@example.org,XXXXXX7823,REDACTED,Bengaluru,Karnataka,260692,1962-06-18,Female,2025-02-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0400,A***** N********,tr********@example.com,XXXXXX7448,REDACTED,Lucknow,Uttar Pradesh,568565,2006-01-29,Male,2023-08-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0401,B******* C****,ab*****@example.net,XXXXXX7792,REDACTED,Ahmedabad,Gujarat,435300,1998-04-02,Other,2024-05-07,Gold,2026-07-02 16:18:55,6c59e737
+CUST0402,O***** T**,ro*********@example.net,XXXXXX8536,REDACTED,Lucknow,Uttar Pradesh,660869,1977-08-11,Other,2025-09-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0403,C****** T*****,vt*******@example.com,XXXXXX2801,REDACTED,Bengaluru,Karnataka,966356,1974-01-20,Male,2021-08-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0404,N***** B***********,sa*******@example.com,XXXXXX2097,REDACTED,Chennai,Tamil Nadu,933,1963-06-19,Other,2024-09-06,Gold,2026-07-02 16:18:55,6c59e737
+CUST0405,I***** G****,om*****@example.org,XXXXXX9326,REDACTED,Delhi,Delhi,574680,1971-06-12,Male,2023-11-25,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0406,E** P*****,ab***********@example.com,XXXXXX2568,REDACTED,Bengaluru,Karnataka,97927,1968-05-24,Other,2022-12-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0407,B****** R****,cd***@example.org,XXXXXX8238,REDACTED,Hyderabad,Telangana,439387,1956-10-03,Male,2023-02-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0408,L**** C*****,ts****@example.net,XXXXXX4413,REDACTED,Chennai,Tamil Nadu,663264,1956-10-10,Male,2025-08-19,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0409,I*** K*******,ha*******@example.org,XXXXXX7341,REDACTED,Bengaluru,Karnataka,776956,1980-07-22,Other,2026-04-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0410,A***** V****,hd***@example.com,XXXXXX2087,REDACTED,Hyderabad,Telangana,820065,1964-07-28,Male,2021-12-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0411,H*** B***,si****@example.net,XXXXXX1482,REDACTED,Ahmedabad,Gujarat,18462,1969-11-29,Female,2024-03-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0412,A**** O*****,fi*****@example.com,XXXXXX0095,REDACTED,Jaipur,Rajasthan,903777,1970-10-28,Other,2023-02-02,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0413,R***** K****,jy*****@example.org,XXXXXX3802,REDACTED,Kolkata,West Bengal,387830,1969-08-05,Female,2022-09-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0414,E******* B********,it*****@example.org,XXXXXX6110,REDACTED,Kolkata,West Bengal,240553,1973-08-24,Other,2023-07-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0415,M***** T*****,dk***@example.org,XXXXXX7938,REDACTED,Ahmedabad,Gujarat,443563,1956-05-18,Other,2023-12-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0416,T***** N********,qv***@example.org,XXXXXX6643,REDACTED,Bengaluru,Karnataka,897894,1967-05-17,Female,2023-03-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0417,E**** B************,vo********@example.com,XXXXXX6176,REDACTED,Bengaluru,Karnataka,347494,1971-10-13,Male,2023-09-30,Gold,2026-07-02 16:18:55,6c59e737
+CUST0418,G***** N********,bm****@example.net,XXXXXX7726,REDACTED,Delhi,Delhi,673306,1970-05-05,Other,2025-06-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0419,C***** B****,dk***@example.org,XXXXXX6819,REDACTED,Chennai,Tamil Nadu,769378,1948-01-18,Female,2023-08-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0420,C******* M*****,go******@example.com,XXXXXX3084,REDACTED,Mumbai,Maharashtra,579150,1976-05-19,Male,2025-01-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0421,N**** B***,sa********@example.com,XXXXXX8709,REDACTED,Mumbai,Maharashtra,261433,1971-10-25,Other,2026-05-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0422,V***** K****,oz******@example.org,XXXXXX7101,REDACTED,Delhi,Delhi,478526,1961-11-29,Male,2024-04-08,Silver,2026-07-02 16:18:55,6c59e737
+CUST0423,A**** D***,sa************@example.org,XXXXXX5458,REDACTED,Ahmedabad,Gujarat,716120,1953-10-28,Female,2022-08-11,Gold,2026-07-02 16:18:55,6c59e737
+CUST0424,B****** G****,ss******@example.com,XXXXXX7295,REDACTED,Kolkata,West Bengal,391897,1955-01-31,Other,2023-05-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0425,H**** I******,ka********@example.net,XXXXXX3080,REDACTED,Lucknow,Uttar Pradesh,29247,2002-08-23,Male,2023-05-03,Silver,2026-07-02 16:18:55,6c59e737
+CUST0426,M**** K***,sn*****@example.org,XXXXXX0168,REDACTED,Pune,Maharashtra,649160,1964-02-16,Other,2021-11-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0427,C****** B****,wa*******@example.net,XXXXXX5957,REDACTED,Jaipur,Rajasthan,633304,2002-05-09,Female,2024-04-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0428,P******* G****,qc**********@example.org,XXXXXX2964,REDACTED,Jaipur,Rajasthan,573799,1969-07-02,Female,2023-10-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0429,W****** O*****,us*****@example.com,XXXXXX8860,REDACTED,Hyderabad,Telangana,824531,1954-03-31,Other,2024-04-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0430,S****** M*****,sa******@example.com,XXXXXX4319,REDACTED,Chennai,Tamil Nadu,69123,1987-06-16,Male,2022-05-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0431,S******* B****,ya*****@example.org,XXXXXX6674,REDACTED,Bengaluru,Karnataka,97684,1954-01-18,Male,2021-12-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0432,I***** N***,ht*****@example.net,XXXXXX0156,REDACTED,Pune,Maharashtra,996008,1996-11-26,Male,2023-07-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0433,C****** D*****,gu*******@example.org,XXXXXX4404,REDACTED,Hyderabad,Telangana,110210,1955-04-06,Other,2023-09-14,Gold,2026-07-02 16:18:55,6c59e737
+CUST0434,C******** P****,ab*********@example.net,XXXXXX1525,REDACTED,Chennai,Tamil Nadu,891730,1962-11-23,Female,2026-01-19,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0435,O**** B***,fs***@example.com,XXXXXX7957,REDACTED,Pune,Maharashtra,614600,1984-07-30,Male,2025-03-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0436,V****** S*****,ma***************@example.com,XXXXXX7575,REDACTED,Ahmedabad,Gujarat,613095,1971-12-01,Other,2025-01-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0437,P**** T*****,or*******@example.com,XXXXXX7952,REDACTED,Kolkata,West Bengal,424664,2004-08-19,Female,2022-06-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0438,R**** T******,ra***********@example.net,XXXXXX5524,REDACTED,Delhi,Delhi,12560,1996-08-03,Other,2023-06-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0439,A**** C*****,ve*******@example.com,XXXXXX9163,REDACTED,Jaipur,Rajasthan,595069,1950-08-16,Female,2025-04-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0440,S****** B***,ba*********@example.net,XXXXXX9229,REDACTED,Delhi,Delhi,949739,1984-09-30,Other,2022-04-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0441,A*** J****,ja********@example.net,XXXXXX6138,REDACTED,Delhi,Delhi,374403,1966-05-12,Male,2025-07-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0442,K****** S*****,sd****@example.com,XXXXXX7888,REDACTED,Chennai,Tamil Nadu,268903,1977-10-14,Other,2025-03-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0443,D****** C********,gh****@example.net,XXXXXX7544,REDACTED,Chennai,Tamil Nadu,727154,1998-03-29,Other,2021-11-03,Silver,2026-07-02 16:18:55,6c59e737
+CUST0444,D***** P****,ra**************@example.org,XXXXXX6614,REDACTED,Delhi,Delhi,319886,1947-03-26,Other,2022-09-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0445,R***** K****,os*****@example.net,XXXXXX1772,REDACTED,Jaipur,Rajasthan,401609,1945-08-03,Other,2024-09-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0446,M***** S*****,al*******@example.org,XXXXXX0115,REDACTED,Jaipur,Rajasthan,13479,1955-07-13,Other,2025-08-08,Gold,2026-07-02 16:18:55,6c59e737
+CUST0447,C******* A***,fb*****@example.com,XXXXXX7590,REDACTED,Bengaluru,Karnataka,318871,1976-02-06,Male,2025-01-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0448,F**** K***,da*******@example.org,XXXXXX5889,REDACTED,Ahmedabad,Gujarat,430532,2002-04-12,Male,2023-09-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0449,Y****** G***,ch************@example.com,XXXXXX2868,REDACTED,Ahmedabad,Gujarat,869382,1952-11-15,Other,2025-07-05,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0450,G***** J***,ba********@example.com,XXXXXX6019,REDACTED,Chennai,Tamil Nadu,997503,1972-02-26,Male,2022-10-14,Gold,2026-07-02 16:18:55,6c59e737
+CUST0451,P***** S**********,te****@example.net,XXXXXX9704,REDACTED,Kolkata,West Bengal,107003,1984-10-30,Other,2022-03-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0452,A**** N********,ma********@example.com,XXXXXX6218,REDACTED,Hyderabad,Telangana,510196,1993-07-13,Male,2025-04-03,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0453,C****** R****,pa********@example.org,XXXXXX4592,REDACTED,Ahmedabad,Gujarat,949674,1969-05-21,Male,2021-12-12,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0454,P***** G****,ba**********@example.org,XXXXXX6014,REDACTED,Delhi,Delhi,962915,1975-01-09,Male,2023-11-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0455,N*** D***,qa*****@example.com,XXXXXX8252,REDACTED,Chennai,Tamil Nadu,738372,2002-07-05,Male,2023-06-04,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0456,E***** M***,br******@example.org,XXXXXX3117,REDACTED,Ahmedabad,Gujarat,36812,1971-08-11,Male,2022-09-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0457,F**** C**********,za******@example.com,XXXXXX1231,REDACTED,Ahmedabad,Gujarat,303618,1982-06-08,Male,2021-09-20,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0458,T**** B*****,vi********@example.com,XXXXXX9436,REDACTED,Chennai,Tamil Nadu,833162,2001-07-24,Male,2025-11-10,Gold,2026-07-02 16:18:55,6c59e737
+CUST0459,G****** R**,zs********@example.net,XXXXXX8070,REDACTED,Delhi,Delhi,453636,1945-09-05,Female,2024-10-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0460,D**** B**,ad******@example.net,XXXXXX8932,REDACTED,Chennai,Tamil Nadu,220475,1993-04-13,Female,2021-08-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0461,Z***** W****,ij****@example.com,XXXXXX6688,REDACTED,Chennai,Tamil Nadu,700663,2005-02-17,Female,2024-03-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0462,G******* R************,ta*********@example.com,XXXXXX3596,REDACTED,Jaipur,Rajasthan,908229,1959-09-13,Other,2022-09-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0463,S******** C********,kk***@example.net,XXXXXX9052,REDACTED,Ahmedabad,Gujarat,546916,1999-04-01,Male,2024-05-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0464,O****** M********,ag***********@example.net,XXXXXX2305,REDACTED,Ahmedabad,Gujarat,724438,1991-09-25,Female,2025-01-17,Gold,2026-07-02 16:18:55,6c59e737
+CUST0465,K**** N***,te***********@example.org,XXXXXX7744,REDACTED,Ahmedabad,Gujarat,925882,2005-03-12,Other,2024-09-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0466,B***** S*****,na*****@example.org,XXXXXX4826,REDACTED,Hyderabad,Telangana,954792,1948-04-06,Other,2023-10-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0467,A****** M****,wa******@example.net,XXXXXX7399,REDACTED,Delhi,Delhi,519655,2007-10-08,Male,2022-09-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0468,Y***** G***,he***********@example.net,XXXXXX1380,REDACTED,Lucknow,Uttar Pradesh,380377,1957-08-19,Female,2022-02-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0469,G****** N***,xa******@example.net,XXXXXX8022,REDACTED,Delhi,Delhi,68211,1966-12-29,Male,2021-07-21,Gold,2026-07-02 16:18:55,6c59e737
+CUST0470,A***** W******,ow****@example.org,XXXXXX5613,REDACTED,Ahmedabad,Gujarat,354309,1960-06-19,Male,2024-05-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0471,F**** R***,wz*******@example.com,XXXXXX8048,REDACTED,Jaipur,Rajasthan,225932,1997-11-27,Female,2023-12-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0472,Y***** V****,ka***********@example.com,XXXXXX0702,REDACTED,Ahmedabad,Gujarat,495437,1991-04-09,Other,2023-12-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0473,D***** D******,ar******@example.org,XXXXXX6346,REDACTED,Kolkata,West Bengal,812551,1957-12-10,Other,2024-10-19,Gold,2026-07-02 16:18:55,6c59e737
+CUST0474,F**** B*****,sr**********@example.com,XXXXXX8283,REDACTED,Jaipur,Rajasthan,582101,1975-07-09,Female,2023-12-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0475,G**** P****,ur****@example.org,XXXXXX4299,REDACTED,Kolkata,West Bengal,263593,1976-04-20,Other,2021-12-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0476,C****** K****,ha****@example.com,XXXXXX7036,REDACTED,Hyderabad,Telangana,828335,1957-01-17,Male,2025-07-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0477,A** K******,ek******@example.com,XXXXXX0637,REDACTED,Chennai,Tamil Nadu,297186,1993-08-26,Female,2024-08-04,Gold,2026-07-02 16:18:55,6c59e737
+CUST0478,Z***** N***,sa******@example.net,XXXXXX5827,REDACTED,Bengaluru,Karnataka,857213,1961-04-13,Female,2024-03-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0479,M*** S****,pd***@example.net,XXXXXX9895,REDACTED,Pune,Maharashtra,476717,1974-03-26,Other,2024-11-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0480,G****** D****,mo********@example.net,XXXXXX9189,REDACTED,Lucknow,Uttar Pradesh,904794,1971-10-02,Other,2024-05-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0481,P****** H***,is****@example.org,XXXXXX8655,REDACTED,Mumbai,Maharashtra,416872,1960-03-26,Other,2023-11-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0482,W**** V********,jh*****@example.com,XXXXXX9185,REDACTED,Delhi,Delhi,779012,1988-10-03,Male,2024-09-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0483,P***** N*********,na*********@example.net,XXXXXX6648,REDACTED,Bengaluru,Karnataka,972747,1973-04-12,Male,2025-08-31,Gold,2026-07-02 16:18:55,6c59e737
+CUST0484,W******** S*******,ma***********@example.com,XXXXXX8365,REDACTED,Ahmedabad,Gujarat,813343,1979-12-25,Female,2023-01-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0485,T******* M*******,da*****@example.net,XXXXXX4980,REDACTED,Bengaluru,Karnataka,395915,1989-01-31,Female,2023-10-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0486,B******* B***,fa*******@example.com,XXXXXX2986,REDACTED,Ahmedabad,Gujarat,976621,1978-04-09,Male,2023-11-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0487,M***** S*********,yj******@example.net,XXXXXX1385,REDACTED,Hyderabad,Telangana,968614,1970-11-11,Female,2022-06-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0488,Y***** S******,dh******@example.org,XXXXXX7776,REDACTED,Delhi,Delhi,130846,1976-03-25,Female,2026-01-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0489,O**** A***,kr*******@example.org,XXXXXX5551,REDACTED,Hyderabad,Telangana,596797,2000-07-12,Other,2025-03-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0490,T***** B**************,oj****@example.com,XXXXXX0380,REDACTED,Pune,Maharashtra,521279,2000-11-05,Male,2024-05-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0491,F**** T***,is******@example.org,XXXXXX1151,REDACTED,Bengaluru,Karnataka,364909,1989-10-31,Female,2025-06-18,Silver,2026-07-02 16:18:55,6c59e737
+CUST0492,F****** K*****,ka***@example.net,XXXXXX3423,REDACTED,Lucknow,Uttar Pradesh,588513,1981-02-19,Other,2025-03-21,Gold,2026-07-02 16:18:55,6c59e737
+CUST0493,A****** D****,wi**********@example.net,XXXXXX3064,REDACTED,Kolkata,West Bengal,323877,1974-04-14,Other,2022-11-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0494,B***** R****,ik*******@example.net,XXXXXX1934,REDACTED,Ahmedabad,Gujarat,810540,1968-06-05,Other,2022-10-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0495,Q**** B*****,ir***@example.org,XXXXXX0394,REDACTED,Kolkata,West Bengal,831651,1949-06-04,Other,2024-01-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0496,J****** D****,ja****@example.net,XXXXXX5356,REDACTED,Pune,Maharashtra,596756,1947-09-11,Other,2024-07-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0497,O****** B****,nt***@example.net,XXXXXX3795,REDACTED,Jaipur,Rajasthan,784947,1968-03-02,Female,2021-10-17,Gold,2026-07-02 16:18:55,6c59e737
+CUST0498,S**** S**,em*****@example.net,XXXXXX8835,REDACTED,Bengaluru,Karnataka,463169,1988-08-16,Other,2025-10-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0499,R**** V*****,kd****@example.com,XXXXXX6595,REDACTED,Bengaluru,Karnataka,270037,1967-01-31,Male,2021-09-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0500,P***** W***,la******@example.org,XXXXXX7847,REDACTED,Kolkata,West Bengal,941800,1959-09-28,Other,2022-08-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0501,A**** V*****,os****@example.org,XXXXXX7076,REDACTED,Kolkata,West Bengal,705919,1970-10-19,Male,2024-09-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0502,G****** P****,va**********@example.com,XXXXXX9905,REDACTED,Pune,Maharashtra,769828,1974-11-02,Male,2024-09-27,Gold,2026-07-02 16:18:55,6c59e737
+CUST0503,A***** M****,hs****@example.org,XXXXXX0541,REDACTED,Ahmedabad,Gujarat,391664,1998-09-07,Male,2024-07-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0504,A***** K***,lo*****@example.net,XXXXXX9111,REDACTED,Pune,Maharashtra,684072,1985-08-01,Female,2022-11-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0505,C******* K***,is****@example.com,XXXXXX6383,REDACTED,Ahmedabad,Gujarat,998639,1958-07-20,Other,2021-09-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0506,L**** V****,ba***********@example.org,XXXXXX9737,REDACTED,Kolkata,West Bengal,746576,1972-09-17,Male,2022-04-15,Gold,2026-07-02 16:18:55,6c59e737
+CUST0507,G**** M****,rn***@example.com,XXXXXX0343,REDACTED,Pune,Maharashtra,837875,1974-08-05,Other,2021-12-17,Gold,2026-07-02 16:18:55,6c59e737
+CUST0508,L****** M*******,fs*****@example.net,XXXXXX6982,REDACTED,Hyderabad,Telangana,275302,2000-12-20,Female,2024-09-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0509,C******** M*****,vk*****@example.net,XXXXXX3994,REDACTED,Delhi,Delhi,75236,1960-06-02,Other,2023-08-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0510,C******* Y****,ch**********@example.com,XXXXXX5700,REDACTED,Jaipur,Rajasthan,663287,1959-07-24,Male,2026-04-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0511,R***** P****,an*******@example.org,XXXXXX4796,REDACTED,Jaipur,Rajasthan,388079,1981-05-15,Male,2024-10-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0512,O**** P******,ba*******@example.org,XXXXXX8672,REDACTED,Kolkata,West Bengal,833773,1954-05-20,Female,2022-03-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0513,V***** S****,ra******@example.net,XXXXXX7906,REDACTED,Kolkata,West Bengal,462650,1971-03-24,Female,2026-03-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0514,J**** G***,tu*****@example.net,XXXXXX6066,REDACTED,Pune,Maharashtra,519637,1969-01-21,Other,2025-04-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0515,N***** N***,yr*****@example.net,XXXXXX5577,REDACTED,Mumbai,Maharashtra,543455,1977-06-18,Other,2024-10-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0516,A***** S****,or*********@example.com,XXXXXX0391,REDACTED,Ahmedabad,Gujarat,866990,2005-04-23,Male,2022-06-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0517,H***** V********,de********@example.net,XXXXXX6413,REDACTED,Kolkata,West Bengal,128577,1974-02-11,Female,2021-11-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0518,F**** N***,uk********@example.net,XXXXXX8226,REDACTED,Ahmedabad,Gujarat,850077,1963-02-18,Male,2025-09-28,Silver,2026-07-02 16:18:55,6c59e737
+CUST0519,B******** T***,ra*******@example.com,XXXXXX7138,REDACTED,Delhi,Delhi,924915,1979-05-20,Male,2021-12-25,Gold,2026-07-02 16:18:55,6c59e737
+CUST0520,A**** T**,bh*******@example.net,XXXXXX8808,REDACTED,Mumbai,Maharashtra,425767,1969-07-30,Male,2026-03-31,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0521,K**** P******,ve*********@example.org,XXXXXX1104,REDACTED,Hyderabad,Telangana,100005,2006-05-20,Male,2026-04-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0522,I*** C********,pa********@example.com,XXXXXX4081,REDACTED,Pune,Maharashtra,162733,1949-06-15,Female,2023-03-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0523,J***** D***,an****@example.net,XXXXXX1194,REDACTED,Ahmedabad,Gujarat,326416,1949-11-22,Other,2022-07-15,Silver,2026-07-02 16:18:55,6c59e737
+CUST0524,A****** B*****,ph***@example.net,XXXXXX5241,REDACTED,Mumbai,Maharashtra,252122,1959-02-13,Other,2023-06-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0525,V******* R**,ch**************@example.org,XXXXXX5511,REDACTED,Lucknow,Uttar Pradesh,45894,1946-11-30,Other,2025-01-29,Gold,2026-07-02 16:18:55,6c59e737
+CUST0526,R***** R********,ka*******@example.org,XXXXXX0105,REDACTED,Bengaluru,Karnataka,107021,1982-02-05,Male,2024-02-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0527,E** N****,ns*****@example.net,XXXXXX7798,REDACTED,Bengaluru,Karnataka,940722,1973-01-02,Female,2026-04-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0528,B****** V****,ba*******@example.net,XXXXXX8826,REDACTED,Ahmedabad,Gujarat,402219,1982-03-01,Other,2021-10-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0529,Y****** C*****,sa*******@example.com,XXXXXX6452,REDACTED,Kolkata,West Bengal,971963,1976-07-26,Other,2021-11-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0530,E***** B****,ke****@example.com,XXXXXX5014,REDACTED,Chennai,Tamil Nadu,840117,1952-04-03,Other,2025-09-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0531,Y****** J****,fi****@example.org,XXXXXX3128,REDACTED,Lucknow,Uttar Pradesh,244177,2003-11-21,Other,2024-01-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0532,R**** R**********,wg*****@example.com,XXXXXX0839,REDACTED,Kolkata,West Bengal,473088,1954-07-25,Male,2025-07-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0533,S***** C*****,ma******@example.org,XXXXXX9926,REDACTED,Hyderabad,Telangana,571625,1947-09-03,Male,2026-01-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0534,V*** C*****,ka*********@example.com,XXXXXX2212,REDACTED,Bengaluru,Karnataka,820019,2001-05-20,Other,2025-11-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0535,I**** K*****,kg*****@example.org,XXXXXX5757,REDACTED,Pune,Maharashtra,631424,2001-02-02,Male,2023-11-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0536,A****** P*****,ja*****@example.net,XXXXXX9723,REDACTED,Mumbai,Maharashtra,546233,1963-01-27,Female,2025-10-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0537,R**** B*****,ra***********@example.com,XXXXXX8656,REDACTED,Bengaluru,Karnataka,245158,1952-11-11,Male,2023-07-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0538,O*** S******,go*********@example.org,XXXXXX2757,REDACTED,Pune,Maharashtra,718623,1989-04-19,Male,2025-09-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0539,S***** C****,kg******@example.com,XXXXXX3151,REDACTED,Jaipur,Rajasthan,602220,1959-11-24,Other,2024-04-29,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0540,V***** S*****,ka*******@example.org,XXXXXX1843,REDACTED,Lucknow,Uttar Pradesh,595779,1958-03-19,Female,2021-08-03,Silver,2026-07-02 16:18:55,6c59e737
+CUST0541,F**** P******,up*********@example.net,XXXXXX9331,REDACTED,Kolkata,West Bengal,393336,1978-08-20,Male,2024-09-21,Gold,2026-07-02 16:18:55,6c59e737
+CUST0542,V******* M*****,ja*****@example.net,XXXXXX3058,REDACTED,Jaipur,Rajasthan,868664,1969-07-01,Female,2024-08-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0543,H***** B***,ba*********@example.com,XXXXXX1315,REDACTED,Delhi,Delhi,216689,2004-06-14,Female,2026-03-13,Silver,2026-07-02 16:18:55,6c59e737
+CUST0544,V******* B****,no**********@example.net,XXXXXX8476,REDACTED,Bengaluru,Karnataka,747527,1984-10-21,Female,2026-04-21,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0545,L***** D*****,la************@example.com,XXXXXX0615,REDACTED,Delhi,Delhi,410627,1967-04-24,Male,2026-05-29,Gold,2026-07-02 16:18:55,6c59e737
+CUST0546,H***** G****,id***@example.org,XXXXXX4540,REDACTED,Jaipur,Rajasthan,378075,1981-04-25,Female,2025-04-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0547,M**** S*****,lu****@example.net,XXXXXX2174,REDACTED,Kolkata,West Bengal,215523,1992-06-20,Male,2023-11-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0548,H****** M***,zk***@example.com,XXXXXX4372,REDACTED,Ahmedabad,Gujarat,214201,1980-11-10,Other,2022-09-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0549,C***** N***,ni*****@example.com,XXXXXX6221,REDACTED,Bengaluru,Karnataka,165840,1998-11-03,Other,2021-10-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0550,S****** K*******,wb*****@example.org,XXXXXX3363,REDACTED,Kolkata,West Bengal,706514,2002-02-09,Male,2023-08-30,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0551,E**** B***,ch********@example.com,XXXXXX4262,REDACTED,Kolkata,West Bengal,760235,1978-03-10,Male,2025-08-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0552,V******* K*****,ek****@example.com,XXXXXX7641,REDACTED,Pune,Maharashtra,147005,1991-03-06,Female,2025-02-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0553,V******* S********,la************@example.com,XXXXXX6499,REDACTED,Bengaluru,Karnataka,976105,1963-08-06,Female,2025-11-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0554,B********* K*****,ra******@example.com,XXXXXX1117,REDACTED,Mumbai,Maharashtra,13956,1995-01-21,Other,2021-08-12,Silver,2026-07-02 16:18:55,6c59e737
+CUST0555,L**** N***,mm***@example.org,XXXXXX8686,REDACTED,Hyderabad,Telangana,647421,2007-11-05,Male,2023-03-25,Gold,2026-07-02 16:18:55,6c59e737
+CUST0556,O****** G***,uv********@example.com,XXXXXX7239,REDACTED,Mumbai,Maharashtra,193101,1956-02-19,Female,2025-10-31,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0557,W****** C********,mk************@example.org,XXXXXX4517,REDACTED,Chennai,Tamil Nadu,932358,1947-11-22,Other,2025-02-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0558,B******* P***,bi*********@example.net,XXXXXX6883,REDACTED,Mumbai,Maharashtra,835803,2007-06-17,Female,2026-04-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0559,S**** C****,vi*********@example.net,XXXXXX4816,REDACTED,Kolkata,West Bengal,507849,1982-10-05,Female,2023-04-20,Gold,2026-07-02 16:18:55,6c59e737
+CUST0560,B****** M****,ar*****@example.net,XXXXXX0704,REDACTED,Lucknow,Uttar Pradesh,955950,1958-07-14,Other,2024-09-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0561,G****** B*****,ga******@example.net,XXXXXX8880,REDACTED,Ahmedabad,Gujarat,907491,1991-05-14,Female,2026-02-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0562,D**** K****,ba**********@example.com,XXXXXX2986,REDACTED,Delhi,Delhi,313668,1948-11-29,Male,2022-12-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0563,M***** B***,ya*****@example.com,XXXXXX9036,REDACTED,Kolkata,West Bengal,767333,1984-08-12,Male,2025-12-18,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0564,F**** S***,vr******@example.net,XXXXXX0753,REDACTED,Lucknow,Uttar Pradesh,853088,1971-03-16,Male,2026-03-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0565,G****** B****,da********@example.net,XXXXXX2264,REDACTED,Pune,Maharashtra,239845,1974-12-18,Male,2024-03-28,Gold,2026-07-02 16:18:55,6c59e737
+CUST0566,D**** K*****,ch*********@example.org,XXXXXX0182,REDACTED,Mumbai,Maharashtra,694642,1984-01-31,Female,2021-09-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0567,A** N***,hs***@example.org,XXXXXX6822,REDACTED,Pune,Maharashtra,180268,1980-08-12,Female,2022-09-22,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0568,F******** B****,na***********@example.net,XXXXXX7474,REDACTED,Pune,Maharashtra,668326,1984-01-29,Other,2021-11-03,Silver,2026-07-02 16:18:55,6c59e737
+CUST0569,A******** L**,ag********@example.com,XXXXXX9010,REDACTED,Lucknow,Uttar Pradesh,323099,1997-02-27,Other,2024-10-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0570,S***** B****,ka********@example.org,XXXXXX0244,REDACTED,Hyderabad,Telangana,66621,1987-09-19,Male,2024-10-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0571,S***** R****,do*************@example.net,XXXXXX1347,REDACTED,Chennai,Tamil Nadu,183377,1960-07-04,Other,2025-09-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0572,T***** S****,ga*******@example.org,XXXXXX9283,REDACTED,Delhi,Delhi,447361,1963-07-16,Other,2021-07-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0573,D*** S*******,ba*********@example.com,XXXXXX4830,REDACTED,Hyderabad,Telangana,564435,1996-02-15,Other,2023-04-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0574,U****** K****,ro******@example.net,XXXXXX1242,REDACTED,Bengaluru,Karnataka,338027,1953-11-05,Female,2024-08-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0575,P***** B****,sa**********@example.com,XXXXXX3134,REDACTED,Bengaluru,Karnataka,323523,1972-11-21,Male,2025-02-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0576,M****** W****,ch***************@example.org,XXXXXX5046,REDACTED,Kolkata,West Bengal,211814,1968-10-09,Other,2021-09-30,Gold,2026-07-02 16:18:55,6c59e737
+CUST0577,E***** B****,ka*****@example.net,XXXXXX4823,REDACTED,Chennai,Tamil Nadu,354422,1992-02-01,Male,2024-01-25,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0578,S** A****,ra*********@example.net,XXXXXX7992,REDACTED,Kolkata,West Bengal,570506,1962-10-21,Female,2025-03-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0579,H******** H****,ha**************@example.org,XXXXXX2458,REDACTED,Delhi,Delhi,753121,2003-12-30,Female,2021-08-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0580,O**** T**,ul*****@example.org,XXXXXX3385,REDACTED,Chennai,Tamil Nadu,420076,2006-10-03,Female,2026-05-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0581,G****** D*****,cs*****@example.net,XXXXXX2231,REDACTED,Jaipur,Rajasthan,890250,1981-08-01,Male,2026-05-02,Gold,2026-07-02 16:18:55,6c59e737
+CUST0582,R***** P*****,na*************@example.net,XXXXXX0243,REDACTED,Ahmedabad,Gujarat,705940,1962-04-24,Male,2022-09-07,Gold,2026-07-02 16:18:55,6c59e737
+CUST0583,E******* Z********,na*********@example.net,XXXXXX6765,REDACTED,Bengaluru,Karnataka,168424,1947-03-14,Female,2023-09-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0584,V******* N****,ne********@example.net,XXXXXX5419,REDACTED,Jaipur,Rajasthan,350580,2003-01-15,Female,2025-05-19,Gold,2026-07-02 16:18:55,6c59e737
+CUST0585,O***** R****,zi*****@example.org,XXXXXX5547,REDACTED,Jaipur,Rajasthan,159125,1974-06-26,Male,2024-03-26,Gold,2026-07-02 16:18:55,6c59e737
+CUST0586,I** K*****,ra******@example.org,XXXXXX2070,REDACTED,Ahmedabad,Gujarat,948740,1996-03-03,Male,2022-07-15,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0587,M****** C**********,he*********@example.org,XXXXXX1995,REDACTED,Jaipur,Rajasthan,162641,1993-01-22,Female,2022-08-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0588,M***** A*******,ta****@example.net,XXXXXX1001,REDACTED,Lucknow,Uttar Pradesh,630542,1967-06-06,Female,2026-04-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0589,F**** T***,dh************@example.com,XXXXXX0467,REDACTED,Lucknow,Uttar Pradesh,741122,1946-10-21,Female,2024-01-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0590,G***** M******,sp****@example.net,XXXXXX4080,REDACTED,Lucknow,Uttar Pradesh,170421,1947-12-14,Other,2025-05-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0591,B****** B*********,wa********@example.net,XXXXXX9911,REDACTED,Hyderabad,Telangana,783534,1979-02-23,Other,2025-06-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0592,V****** S*****,gb*****@example.org,XXXXXX1607,REDACTED,Pune,Maharashtra,315538,1988-10-05,Other,2023-07-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0593,G****** I****,on*********@example.com,XXXXXX1168,REDACTED,Chennai,Tamil Nadu,80101,2005-03-02,Female,2026-01-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0594,Z***** S****,ed****************@example.org,XXXXXX1093,REDACTED,Lucknow,Uttar Pradesh,221283,1981-05-08,Male,2023-09-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0595,T***** M*****,fd**@example.com,XXXXXX7862,REDACTED,Pune,Maharashtra,875072,1959-03-25,Other,2021-12-29,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0596,A*** B****,ya******@example.net,XXXXXX6821,REDACTED,Mumbai,Maharashtra,307987,1980-07-19,Other,2021-07-26,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0597,N******* J******,ne****@example.net,XXXXXX6024,REDACTED,Chennai,Tamil Nadu,726098,1962-11-04,Other,2024-09-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0598,T***** C******,is*****@example.org,XXXXXX0461,REDACTED,Bengaluru,Karnataka,320404,1949-04-05,Female,2022-07-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0599,J** H****,vj****@example.org,XXXXXX6873,REDACTED,Kolkata,West Bengal,379810,1979-03-07,Other,2023-08-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0600,I**** N****,rv**@example.org,XXXXXX4103,REDACTED,Kolkata,West Bengal,908951,1991-01-04,Male,2022-01-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0601,H*** N******,ga************@example.net,XXXXXX4643,REDACTED,Hyderabad,Telangana,695627,2002-06-10,Male,2023-05-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0602,T****** D****,ks*****@example.org,XXXXXX8153,REDACTED,Bengaluru,Karnataka,941693,1980-05-12,Other,2025-11-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0603,A**** N****,ln****@example.com,XXXXXX4079,REDACTED,Bengaluru,Karnataka,304837,1985-07-23,Other,2022-08-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0604,V******* S***,ha********@example.org,XXXXXX6893,REDACTED,Jaipur,Rajasthan,540189,1974-03-22,Male,2021-10-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0605,S****** V*****,vr*********@example.net,XXXXXX8725,REDACTED,Pune,Maharashtra,267805,1979-10-12,Male,2025-08-06,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0606,X*** S******,ba*********@example.net,XXXXXX5045,REDACTED,Bengaluru,Karnataka,652146,1948-01-27,Other,2025-01-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0607,H***** T*****,pa********@example.com,XXXXXX8913,REDACTED,Kolkata,West Bengal,969196,1956-12-03,Female,2025-02-17,Gold,2026-07-02 16:18:55,6c59e737
+CUST0608,V****** T*****,lo*****@example.net,XXXXXX5112,REDACTED,Hyderabad,Telangana,81400,1971-05-09,Female,2021-10-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0609,W****** J****,tn****@example.net,XXXXXX6184,REDACTED,Hyderabad,Telangana,827724,1947-03-16,Female,2024-02-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0610,Y***** A****,pd**@example.net,XXXXXX1034,REDACTED,Kolkata,West Bengal,581550,1955-10-21,Female,2022-12-05,Silver,2026-07-02 16:18:55,6c59e737
+CUST0611,T****** B*******,ba**********@example.org,XXXXXX9603,REDACTED,Kolkata,West Bengal,751787,1995-09-06,Male,2021-09-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0612,A***** D**,ay*****@example.net,XXXXXX8977,REDACTED,Ahmedabad,Gujarat,941831,1945-09-23,Male,2021-10-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0613,V****** V****,da******@example.org,XXXXXX8982,REDACTED,Mumbai,Maharashtra,553562,2008-01-07,Female,2025-04-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0614,D**** M***,ys******@example.org,XXXXXX5227,REDACTED,Chennai,Tamil Nadu,783686,1978-05-12,Female,2025-11-02,Gold,2026-07-02 16:18:55,6c59e737
+CUST0615,V***** D******,ka**********@example.org,XXXXXX0960,REDACTED,Chennai,Tamil Nadu,561766,1985-03-30,Other,2023-10-31,Silver,2026-07-02 16:18:55,6c59e737
+CUST0616,M**** M***,la*******@example.net,XXXXXX6093,REDACTED,Pune,Maharashtra,912692,2003-01-27,Female,2022-10-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0617,M****** S****,ar************@example.net,XXXXXX9971,REDACTED,Bengaluru,Karnataka,149584,1998-03-04,Other,2026-03-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0618,H**** M****,se************@example.net,XXXXXX1594,REDACTED,Bengaluru,Karnataka,179591,1951-11-13,Female,2025-11-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0619,A***** T*****,sa**********@example.net,XXXXXX5854,REDACTED,Lucknow,Uttar Pradesh,312863,1975-03-14,Other,2024-04-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0620,N***** V***,xi*******@example.com,XXXXXX7474,REDACTED,Lucknow,Uttar Pradesh,776869,1969-09-23,Other,2023-01-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0621,S***** S*****,ba*******@example.net,XXXXXX9806,REDACTED,Kolkata,West Bengal,344525,1983-07-26,Other,2022-01-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0622,U***** R**,kr*****@example.net,XXXXXX5986,REDACTED,Pune,Maharashtra,1690,2000-04-09,Other,2022-07-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0623,A***** A******,ma************@example.com,XXXXXX5802,REDACTED,Jaipur,Rajasthan,523198,1991-06-30,Female,2022-06-11,Silver,2026-07-02 16:18:55,6c59e737
+CUST0624,O** S****,ja*********@example.com,XXXXXX6481,REDACTED,Pune,Maharashtra,13672,1948-11-13,Female,2022-04-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0625,J****** G***,ba*******@example.net,XXXXXX8818,REDACTED,Kolkata,West Bengal,381200,1979-08-23,Other,2023-01-03,Gold,2026-07-02 16:18:55,6c59e737
+CUST0626,G****** T*****,ar****@example.org,XXXXXX6819,REDACTED,Ahmedabad,Gujarat,418232,1968-07-07,Other,2022-02-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0627,U***** T*****,th**********@example.org,XXXXXX4990,REDACTED,Lucknow,Uttar Pradesh,893511,1978-04-29,Other,2022-11-09,Gold,2026-07-02 16:18:55,6c59e737
+CUST0628,H******* P****,wg****@example.net,XXXXXX9854,REDACTED,Bengaluru,Karnataka,590411,1995-07-12,Male,2026-02-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0629,L****** B***,yd*@example.org,XXXXXX4613,REDACTED,Pune,Maharashtra,629787,1951-05-11,Female,2023-04-22,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0630,J**** P*****,ha********@example.net,XXXXXX2183,REDACTED,Kolkata,West Bengal,444531,2003-06-30,Male,2023-12-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0631,F**** S*****,vk*****@example.net,XXXXXX5443,REDACTED,Chennai,Tamil Nadu,923516,1955-04-04,Male,2026-02-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0632,R****** N*****,ad*****@example.org,XXXXXX8613,REDACTED,Kolkata,West Bengal,549919,2007-03-15,Female,2021-10-27,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0633,D***** C****,li********@example.net,XXXXXX3886,REDACTED,Jaipur,Rajasthan,143618,2005-02-27,Other,2023-06-15,Gold,2026-07-02 16:18:55,6c59e737
+CUST0634,T****** M*****,jt***@example.com,XXXXXX3994,REDACTED,Lucknow,Uttar Pradesh,788921,2002-08-29,Female,2023-09-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0635,V****** C******,ri*******@example.org,XXXXXX6227,REDACTED,Bengaluru,Karnataka,310376,1975-08-28,Other,2024-03-23,Silver,2026-07-02 16:18:55,6c59e737
+CUST0636,U*** G*****,ra****************@example.net,XXXXXX0748,REDACTED,Pune,Maharashtra,961275,1952-09-13,Other,2021-09-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0637,I**** N****,ek******@example.com,XXXXXX3425,REDACTED,Kolkata,West Bengal,672422,2007-12-20,Male,2025-03-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0638,I***** B***,ca*******@example.org,XXXXXX5745,REDACTED,Mumbai,Maharashtra,388595,1969-04-07,Male,2023-05-06,Gold,2026-07-02 16:18:55,6c59e737
+CUST0639,R** P*****,ay*****@example.net,XXXXXX4560,REDACTED,Mumbai,Maharashtra,360249,1946-05-10,Other,2021-11-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0640,H****** H***,ga**************@example.net,XXXXXX2534,REDACTED,Bengaluru,Karnataka,456574,1985-04-09,Male,2022-10-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0641,B******* S*****,ch*******@example.org,XXXXXX7364,REDACTED,Jaipur,Rajasthan,306518,1985-06-29,Female,2022-01-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0642,N***** N***,sa***********@example.org,XXXXXX0349,REDACTED,Ahmedabad,Gujarat,376202,1956-08-09,Other,2024-07-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0643,C******** P****,le****@example.net,XXXXXX5975,REDACTED,Kolkata,West Bengal,493800,1982-04-15,Male,2026-03-29,Gold,2026-07-02 16:18:55,6c59e737
+CUST0644,W****** N****,fn*****@example.com,XXXXXX4009,REDACTED,Kolkata,West Bengal,479169,1985-03-26,Other,2023-09-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0645,G****** P******,va************@example.org,XXXXXX9747,REDACTED,Mumbai,Maharashtra,603964,1952-12-26,Female,2022-05-16,Gold,2026-07-02 16:18:55,6c59e737
+CUST0646,E***** B**,ze******@example.org,XXXXXX6424,REDACTED,Chennai,Tamil Nadu,486760,1983-09-24,Other,2024-01-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0647,A**** D***,jl*****@example.org,XXXXXX6113,REDACTED,Mumbai,Maharashtra,132428,2000-05-21,Male,2025-03-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0648,E***** M*****,ps****@example.org,XXXXXX2144,REDACTED,Jaipur,Rajasthan,938715,2005-08-20,Male,2023-05-07,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0649,S****** K*****,ja*****************@example.com,XXXXXX7970,REDACTED,Delhi,Delhi,258476,1972-04-28,Other,2023-01-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0650,W**** P******,ro******@example.net,XXXXXX3120,REDACTED,Mumbai,Maharashtra,527215,1959-08-15,Female,2025-05-24,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0651,D***** R**,vi******@example.org,XXXXXX7844,REDACTED,Bengaluru,Karnataka,208637,2001-02-25,Female,2026-03-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0652,J****** V****,ma*********@example.com,XXXXXX9186,REDACTED,Ahmedabad,Gujarat,62193,1989-09-01,Other,2025-05-06,Gold,2026-07-02 16:18:55,6c59e737
+CUST0653,S***** S****,fb****@example.org,XXXXXX8334,REDACTED,Lucknow,Uttar Pradesh,382559,1964-10-08,Male,2024-01-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0654,M*** S****,la***********@example.org,XXXXXX8759,REDACTED,Pune,Maharashtra,308803,1964-03-12,Other,2025-10-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0655,O*** V********,pa**********@example.org,XXXXXX6694,REDACTED,Ahmedabad,Gujarat,580006,1989-11-21,Female,2023-06-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0656,V***** K*****,va*********@example.com,XXXXXX3482,REDACTED,Mumbai,Maharashtra,703397,1989-04-23,Female,2025-08-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0657,C******** R**,al***@example.com,XXXXXX0579,REDACTED,Bengaluru,Karnataka,115502,1947-02-04,Male,2025-03-21,Silver,2026-07-02 16:18:55,6c59e737
+CUST0658,Y***** P*****,sa**********@example.com,XXXXXX4319,REDACTED,Ahmedabad,Gujarat,15422,1985-10-04,Male,2022-03-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0659,S***** B****,ys*****@example.net,XXXXXX9181,REDACTED,Hyderabad,Telangana,671343,1995-06-26,Male,2022-10-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0660,W**** R****,th**********@example.com,XXXXXX7573,REDACTED,Jaipur,Rajasthan,838672,2002-07-03,Female,2021-11-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0661,C***** I****,db**@example.net,XXXXXX4718,REDACTED,Jaipur,Rajasthan,630300,2006-05-07,Other,2025-11-20,Silver,2026-07-02 16:18:55,6c59e737
+CUST0662,Z***** D***,ek********@example.org,XXXXXX8733,REDACTED,Bengaluru,Karnataka,549925,1992-06-10,Other,2022-01-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0663,B****** P******,in**********@example.com,XXXXXX7203,REDACTED,Kolkata,West Bengal,437185,1945-11-08,Other,2024-08-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0664,U***** M***,li***********@example.com,XXXXXX8319,REDACTED,Delhi,Delhi,71384,1946-11-07,Male,2023-01-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0665,J**** T*****,ya**********@example.net,XXXXXX0148,REDACTED,Chennai,Tamil Nadu,217802,1950-06-24,Female,2024-07-27,Silver,2026-07-02 16:18:55,6c59e737
+CUST0666,B******** M***,da*****@example.org,XXXXXX8931,REDACTED,Lucknow,Uttar Pradesh,701934,1994-01-31,Male,2026-06-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0667,H**** B*****,zn******@example.org,XXXXXX6295,REDACTED,Jaipur,Rajasthan,433028,1967-07-03,Other,2022-05-08,Silver,2026-07-02 16:18:55,6c59e737
+CUST0668,K**** T*****,tr********@example.org,XXXXXX6017,REDACTED,Ahmedabad,Gujarat,524688,1996-02-07,Female,2026-01-24,Gold,2026-07-02 16:18:55,6c59e737
+CUST0669,F***** C********,gg*****@example.com,XXXXXX7856,REDACTED,Mumbai,Maharashtra,194791,1997-02-25,Other,2025-06-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0670,A**** P*****,ra**********@example.org,XXXXXX8339,REDACTED,Ahmedabad,Gujarat,489446,2006-07-18,Other,2021-10-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0671,O**** P*****,ad******@example.com,XXXXXX1283,REDACTED,Mumbai,Maharashtra,877641,1992-05-09,Male,2023-11-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0672,T****** P******,ta*********@example.org,XXXXXX9058,REDACTED,Kolkata,West Bengal,341235,1956-10-17,Other,2022-09-13,Gold,2026-07-02 16:18:55,6c59e737
+CUST0673,S**** S****,sn*******@example.com,XXXXXX7402,REDACTED,Bengaluru,Karnataka,814523,1997-12-15,Male,2026-01-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0674,E******* M********,de**********@example.org,XXXXXX9607,REDACTED,Mumbai,Maharashtra,941052,2005-05-23,Male,2024-06-05,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0675,I*** M***,or*******@example.com,XXXXXX1016,REDACTED,Delhi,Delhi,651998,2007-05-08,Other,2025-06-24,Silver,2026-07-02 16:18:55,6c59e737
+CUST0676,J***** N*****,kh**********@example.net,XXXXXX3625,REDACTED,Bengaluru,Karnataka,789523,1967-04-02,Male,2022-06-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0677,P***** D***,ka***@example.net,XXXXXX5622,REDACTED,Chennai,Tamil Nadu,888604,1975-04-15,Female,2021-08-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0678,R**** B****,ne****@example.net,XXXXXX9303,REDACTED,Chennai,Tamil Nadu,318532,1989-10-03,Other,2021-07-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0679,H******** A****,ch********@example.org,XXXXXX5093,REDACTED,Delhi,Delhi,680583,1989-04-11,Male,2023-11-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0680,D***** K****,va***********@example.org,XXXXXX9943,REDACTED,Kolkata,West Bengal,445654,1961-06-10,Female,2025-03-30,Gold,2026-07-02 16:18:55,6c59e737
+CUST0681,K***** B***,ma******@example.com,XXXXXX6080,REDACTED,Kolkata,West Bengal,659804,1950-12-31,Other,2024-05-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0682,N******* C***,sh***********@example.net,XXXXXX0189,REDACTED,Mumbai,Maharashtra,893128,1979-11-23,Male,2025-11-24,Gold,2026-07-02 16:18:55,6c59e737
+CUST0683,I*** D***,go*********@example.net,XXXXXX9201,REDACTED,Ahmedabad,Gujarat,137909,1984-08-29,Male,2026-02-28,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0684,B***** B*****,un*********@example.net,XXXXXX0068,REDACTED,Kolkata,West Bengal,654479,1968-03-22,Other,2024-02-11,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0685,C******* C*********,om*******@example.com,XXXXXX1493,REDACTED,Kolkata,West Bengal,574716,1975-08-06,Male,2026-04-17,Silver,2026-07-02 16:18:55,6c59e737
+CUST0686,G****** B***,an*******@example.net,XXXXXX3059,REDACTED,Jaipur,Rajasthan,271381,2005-10-28,Female,2023-04-22,Silver,2026-07-02 16:18:55,6c59e737
+CUST0687,H**** P***,be**********@example.org,XXXXXX0351,REDACTED,Kolkata,West Bengal,510079,1980-07-30,Other,2026-05-31,Gold,2026-07-02 16:18:55,6c59e737
+CUST0688,Z**** M****,ps******@example.net,XXXXXX1195,REDACTED,Ahmedabad,Gujarat,996521,1964-03-11,Male,2021-10-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0689,F**** H***,je*********@example.org,XXXXXX1033,REDACTED,Pune,Maharashtra,237211,1974-08-06,Male,2022-06-07,Silver,2026-07-02 16:18:55,6c59e737
+CUST0690,N**** P*****,up*******@example.net,XXXXXX3392,REDACTED,Bengaluru,Karnataka,455332,1973-10-28,Female,2024-12-04,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0691,A**** V***,ch********@example.org,XXXXXX9213,REDACTED,Pune,Maharashtra,370763,1960-01-20,Female,2023-07-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0692,Z**** G******,ca*****@example.net,XXXXXX4191,REDACTED,Hyderabad,Telangana,413841,1985-09-15,Female,2023-10-03,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0693,V**** S****,ed*********@example.net,XXXXXX8214,REDACTED,Chennai,Tamil Nadu,846715,1978-11-26,Male,2025-04-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0694,I** D**,bh*******@example.com,XXXXXX4853,REDACTED,Chennai,Tamil Nadu,357028,1956-07-01,Other,2022-04-27,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0695,J*** S****,am*******@example.com,XXXXXX2783,REDACTED,Kolkata,West Bengal,489197,2001-10-31,Other,2021-08-26,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0696,V***** D****,za********@example.com,XXXXXX8590,REDACTED,Chennai,Tamil Nadu,750770,1969-03-15,Other,2026-03-30,Silver,2026-07-02 16:18:55,6c59e737
+CUST0697,Q**** S*****,ms********@example.net,XXXXXX7249,REDACTED,Delhi,Delhi,196924,2003-03-09,Male,2025-07-21,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0698,A******** R*********,ch**********@example.com,XXXXXX0350,REDACTED,Bengaluru,Karnataka,741338,1950-03-18,Other,2024-09-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0699,U***** B***,ch********@example.net,XXXXXX4347,REDACTED,Mumbai,Maharashtra,636903,1964-10-14,Other,2024-07-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0700,S**** P*****,ra********@example.org,XXXXXX8034,REDACTED,Kolkata,West Bengal,41787,1976-03-21,Other,2021-07-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0701,R******* S****,ir*********@example.org,XXXXXX2468,REDACTED,Delhi,Delhi,492311,1993-12-20,Female,2026-03-18,Gold,2026-07-02 16:18:55,6c59e737
+CUST0702,B***** C*****,aa******@example.net,XXXXXX0705,REDACTED,Jaipur,Rajasthan,464906,1953-01-06,Other,2023-10-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0703,A***** S*****,pa************@example.com,XXXXXX2901,REDACTED,Jaipur,Rajasthan,707304,2006-05-06,Female,2025-10-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0704,D***** A*******,ni******@example.net,XXXXXX0942,REDACTED,Jaipur,Rajasthan,745440,1969-06-25,Other,2025-06-14,Silver,2026-07-02 16:18:55,6c59e737
+CUST0705,W**** R**,zi********@example.com,XXXXXX4323,REDACTED,Chennai,Tamil Nadu,359884,1985-01-14,Other,2025-03-21,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0706,L**** T*****,he*************@example.net,XXXXXX7753,REDACTED,Jaipur,Rajasthan,354792,1956-02-25,Male,2023-08-17,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0707,T***** B***,ur*********@example.net,XXXXXX9997,REDACTED,Bengaluru,Karnataka,298316,1990-10-10,Male,2024-08-19,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0708,R***** Y***,ha********@example.com,XXXXXX6743,REDACTED,Lucknow,Uttar Pradesh,901427,1992-01-22,Other,2022-05-08,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0709,T***** D****,ta*******@example.org,XXXXXX0796,REDACTED,Jaipur,Rajasthan,347213,1945-12-08,Male,2024-02-08,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0710,F******** P********,ee*****@example.org,XXXXXX3936,REDACTED,Ahmedabad,Gujarat,805891,1954-10-22,Other,2022-06-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0711,B***** T*****,sa**********@example.com,XXXXXX6994,REDACTED,Kolkata,West Bengal,292599,1995-11-08,Male,2022-12-10,Silver,2026-07-02 16:18:55,6c59e737
+CUST0712,U***** G*****,gt***@example.com,XXXXXX0587,REDACTED,Ahmedabad,Gujarat,990498,1997-01-13,Male,2021-07-06,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0713,U**** M****,pd******@example.com,XXXXXX3620,REDACTED,Chennai,Tamil Nadu,243722,2000-10-15,Female,2023-02-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0714,A***** N*********,ma*********@example.com,XXXXXX3177,REDACTED,Jaipur,Rajasthan,549762,1982-09-14,Other,2023-08-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0715,S**** N*******,ja*******@example.org,XXXXXX8154,REDACTED,Lucknow,Uttar Pradesh,162000,1980-03-25,Male,2023-03-04,Gold,2026-07-02 16:18:55,6c59e737
+CUST0716,A******** S*****,va*********@example.org,XXXXXX1889,REDACTED,Mumbai,Maharashtra,392959,1969-07-25,Other,2023-06-30,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0717,V***** O*,pr*********@example.net,XXXXXX3309,REDACTED,Kolkata,West Bengal,504449,1954-02-27,Male,2022-02-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0718,M***** H***,ay************@example.com,XXXXXX3994,REDACTED,Pune,Maharashtra,560021,1964-07-14,Other,2023-11-10,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0719,A***** M***,lo******@example.org,XXXXXX8700,REDACTED,Kolkata,West Bengal,973371,2001-10-13,Female,2026-05-09,Silver,2026-07-02 16:18:55,6c59e737
+CUST0720,A***** B****,kb**@example.org,XXXXXX5704,REDACTED,Hyderabad,Telangana,245067,1951-09-14,Female,2026-03-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0721,S****** D***,tr*****@example.net,XXXXXX4949,REDACTED,Kolkata,West Bengal,69350,2002-05-06,Female,2024-11-14,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0722,O**** R***,vi******@example.com,XXXXXX5252,REDACTED,Lucknow,Uttar Pradesh,709263,1978-10-18,Male,2025-12-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0723,H****** M******,ch********@example.net,XXXXXX0571,REDACTED,Mumbai,Maharashtra,475234,1989-12-17,Male,2024-02-25,Silver,2026-07-02 16:18:55,6c59e737
+CUST0724,E***** S***,ra*********@example.net,XXXXXX7854,REDACTED,Ahmedabad,Gujarat,109519,1954-10-15,Female,2024-07-04,Silver,2026-07-02 16:18:55,6c59e737
+CUST0725,P***** A******,uc******@example.net,XXXXXX4921,REDACTED,Delhi,Delhi,866466,1961-08-24,Other,2025-04-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0726,M***** D****,ch************@example.com,XXXXXX2888,REDACTED,Mumbai,Maharashtra,907193,1989-06-27,Female,2022-05-06,Silver,2026-07-02 16:18:55,6c59e737
+CUST0727,A****** M******,de******@example.com,XXXXXX7075,REDACTED,Mumbai,Maharashtra,541047,1952-10-31,Male,2026-01-02,Silver,2026-07-02 16:18:55,6c59e737
+CUST0728,T***** W*****,da**********@example.org,XXXXXX1491,REDACTED,Bengaluru,Karnataka,262044,1979-08-16,Male,2023-10-09,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0729,N***** T*****,ay********@example.com,XXXXXX0233,REDACTED,Jaipur,Rajasthan,677716,1991-09-05,Female,2026-05-01,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0730,P**** B****,ch*********@example.net,XXXXXX7781,REDACTED,Lucknow,Uttar Pradesh,632574,1975-01-11,Male,2023-04-13,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0731,A******* D***,ro*****@example.net,XXXXXX7184,REDACTED,Ahmedabad,Gujarat,225426,1947-04-05,Other,2023-02-05,Gold,2026-07-02 16:18:55,6c59e737
+CUST0732,U*** K***,iy**********@example.com,XXXXXX0410,REDACTED,Kolkata,West Bengal,38018,1988-06-18,Male,2025-02-20,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0733,G***** G******,ba********@example.org,XXXXXX1789,REDACTED,Kolkata,West Bengal,925413,2004-11-17,Other,2021-09-29,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0734,D***** R***********,pr***********@example.com,XXXXXX8793,REDACTED,Lucknow,Uttar Pradesh,307325,1965-05-25,Female,2023-07-12,Gold,2026-07-02 16:18:55,6c59e737
+CUST0735,R***** C*****,av***@example.com,XXXXXX5900,REDACTED,Delhi,Delhi,231640,1949-04-16,Other,2022-08-06,Platinum,2026-07-02 16:18:55,6c59e737
+CUST0736,G****** S******,da******@example.org,XXXXXX0439,REDACTED,Jaipur,Rajasthan,857827,1988-06-22,Female,2025-07-01,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0737,A******* S****,re****@example.net,XXXXXX1347,REDACTED,Ahmedabad,Gujarat,726287,1945-07-12,Male,2021-12-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0738,Q**** H*****,eb***@example.com,XXXXXX6403,REDACTED,Ahmedabad,Gujarat,835033,1966-03-15,Male,2026-06-01,Silver,2026-07-02 16:18:55,6c59e737
+CUST0739,P****** S*****,na**********@example.com,XXXXXX4317,REDACTED,Kolkata,West Bengal,935637,1954-03-25,Female,2022-05-01,Gold,2026-07-02 16:18:55,6c59e737
+CUST0740,A***** S****,sb**************@example.com,XXXXXX1243,REDACTED,Ahmedabad,Gujarat,721610,2007-08-12,Other,2022-12-29,Silver,2026-07-02 16:18:55,6c59e737
+CUST0741,F**** S***,ba*******@example.org,XXXXXX4467,REDACTED,Bengaluru,Karnataka,411495,1975-10-01,Female,2022-09-26,Silver,2026-07-02 16:18:55,6c59e737
+CUST0742,Z***** R****,oj**********@example.org,XXXXXX4037,REDACTED,Ahmedabad,Gujarat,125821,1974-12-17,Female,2025-03-02,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0743,Z***** D***,ta*****@example.org,XXXXXX4456,REDACTED,Lucknow,Uttar Pradesh,281099,1976-06-27,Female,2025-05-18,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0744,I*** H****,ni***********@example.com,XXXXXX9607,REDACTED,Hyderabad,Telangana,718193,1956-11-25,Female,2024-07-25,Gold,2026-07-02 16:18:55,6c59e737
+CUST0745,R***** J****,qv***@example.org,XXXXXX5934,REDACTED,Kolkata,West Bengal,442754,2007-05-15,Other,2025-04-16,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0746,T****** S*****,ja***************@example.org,XXXXXX0588,REDACTED,Lucknow,Uttar Pradesh,649268,1948-12-14,Other,2026-02-16,Silver,2026-07-02 16:18:55,6c59e737
+CUST0747,R*** B****,ga***********@example.com,XXXXXX8629,REDACTED,Ahmedabad,Gujarat,239345,1987-09-28,Male,2023-07-23,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0748,P***** C******,ga***********@example.org,XXXXXX2776,REDACTED,Bengaluru,Karnataka,465815,2001-08-12,Other,2024-02-12,Bronze,2026-07-02 16:18:55,6c59e737
+CUST0749,U***** S*****,hs******@example.com,XXXXXX2469,REDACTED,Ahmedabad,Gujarat,524342,1976-09-21,Other,2022-04-03,Gold,2026-07-02 16:18:55,6c59e737
+CUST0750,N***** P*****,el******@example.org,XXXXXX4020,REDACTED,Chennai,Tamil Nadu,614637,1991-11-29,Other,2025-10-26,Bronze,2026-07-02 16:18:55,6c59e737

@@ -1,0 +1,15 @@
+DATA QUALITY REPORT
+==================================================
+Generated On : 2026-07-02 16:19:04.221156
+
+CUSTOMERS
+Records : 750
+Missing Values : 0
+Duplicate Customer IDs : 0
+
+TRANSACTIONS
+Records : 8000
+Missing Values : 8756
+Duplicate Transaction IDs : 0
+
+Overall Status : PASS

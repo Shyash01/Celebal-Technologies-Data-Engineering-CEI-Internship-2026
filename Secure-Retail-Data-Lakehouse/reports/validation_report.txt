@@ -1,0 +1,17 @@
+DATA VALIDATION REPORT
+========================================
+Customer Count                      PASS
+Unique Customer IDs                 PASS
+Missing Customer IDs                PASS
+Valid Loyalty Tiers                 PASS
+Valid Genders                       PASS
+Transaction Count                   PASS
+Unique Transaction IDs              PASS
+Valid Customer References           PASS
+Quantity > 0                        PASS
+Unit Price > 0                      PASS
+Correct Total Amount                PASS
+Card Numbers Present                PASS
+CVV Present                         PASS
+========================================
+Overall Status : PASS

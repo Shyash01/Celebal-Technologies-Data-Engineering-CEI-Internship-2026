@@ -1,0 +1,15 @@
+
+*.pyc
+
+.env
+
+.ipynb_checkpoints/
+
+logs/*.log
+
+reports/*.html
+
+reports/*.csv
+
+*.DS_Store
+
